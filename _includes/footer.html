@@ -2,29 +2,27 @@
 
             </div><!-- /#main -->
 
-            <div id="sidebar">
-                          
-                {% if page.title == 'API Evangelist' %}
-                 <div class="widget widget_recent_entries">  
-                 <center>
-                    <table width="250" align="center">
-                    <tbody>
-                    <tr>
-                    <td align="center"><a href="http://bit.ly/15xIQwI" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/whitepapers/api-evangelist-api-101-white-paper.png" width="250" style="border: 0px solid #000;" /></a></td>
-                    </tr>
-                    <tr>
-                    <td align="center"><strong><a href="http://bit.ly/15xIQwI" target="_blank">Download as PDF</a></strong></td>
-                    </tr>
-                    </tbody>
-                    </table>                     
-                 </center>
-                 </div>  
-                {% endif %}                               
+            <div id="sidebar"> 
+
+                <div class="widget widget_recent_entries">  
+                     <h3>Winning in the API Economy</h3>
+                     <center>
+                        <table width="250" align="center">
+                        <tbody>
+                            <tr>
+                                <td align="center"><a href="http://bit.ly/1cHBhd5" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/ebook-3scale.png" width="200" style="border: 0px solid #000;" /></a></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><strong><a href="http://bit.ly/1cHBhd5" target="_blank">Download as PDF</a></strong></td>
+                            </tr>
+                        </tbody>
+                        </table>                     
+                     </center>
+                 </div>                             
                 
-                 <div class="widget widget_recent_entries">  
-                 
-                     <p align="center"><a href="/network.html"><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/network/API-Evangelist-Network.png" width="215" /></a></p>
-                    
+                 <div class="widget widget_recent_entries">
+                     <h3>API Evangelist Network</h3> 
+                     <p align="center"><a href="http://apievangelist.com/network.html"><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/network/API-Evangelist-Network.png" width="215" /></a></p>               
                  </div>
                 
                  <div class="widget widget_recent_entries">  
@@ -65,7 +63,7 @@
                 <h3>Latest Blog Posts</h3>
                 <ul>                
                 
-                    {% for post in site.posts limit:10 %}
+                    {% for post in site.posts limit:25 %}
                         <li><a href="{{ post.url }}">{{ post.title }}</a></li>    
                     {% endfor %}   
                                 
@@ -88,12 +86,12 @@
     
             <p><a href="http://kinlane.com/about/">About</a></p>    
             <p>|</p>
-            <p><a href="http://theapistack.com">API Stack</a></p>   
-            <p>|</p>
             <p><a href="http://apievangelist.com">API Evangelist</a></p>        
             <p>|</p>
             <p><a href="http://apivoice.com">API Voice</a></p>
             <p>|</p>
+            <p><a href="http://apicommons.com">API Commons</a></p>
+            <p>|</p>            
             <p><a href="http://kinlane.com/contact/">Contact</a></p>                
         
         </div>

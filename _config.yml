@@ -1,5 +1,7 @@
 title : API Monetization
 
+markdown: kramdown
+
 safe: true
 lsi: false
 pygments: true
