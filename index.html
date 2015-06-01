@@ -1,113 +1,19 @@
 ---
-layout: default
-title: API Monetization
-overview: true
+layout: page
+title: API Monetization Research
 ---
 
+<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-gears-questions.png" alt="" width="290" align="right" /></p>
 
-<style>
+<p>This is one of my API research sites, focused specifically on the monetization around API platforms. My name is <a href="http://kinlane.com">Kin Lane</a>, and I am the <a href="http://apievangelist.com/">API Evangelist</a>, working as hard as I can to understand the world of the Application Programming Interface, widely called an API. This network of API research projects all run on Github, and is my real-time workbench, which means there is a lot of finished work present, but occasionally you will also come across areas projects that are unfinished--you have stumbled in my API monetization research, you will find the main <a href="http://apievangelist.com/">API Evangelist site over here</a>, with other links to my work.</p> 
 
-    .buildingblocklistingcontainer{
-        padding-left: 10px; 
-        padding-right: 10px; 
-        width:550px;
-    }
-    .buildingblockcategorylistingul{
-        padding-left: 30px;
-    }  
-    .buildingblockcategorylistingul li{
-        list-style: none; 
-        padding: 10px 10px 20px 10px;
-        border: 0px solid #000;
-        font-size: 18px;
-        font-weight: bold;
-    }  
-    .buildingblocklistingul{
-        padding-left: 30px;
-    }  
-    .buildingblocklistingul li{
-        padding: 20px; 
-        border: 0px solid #000;
-        font-size: 14px;
-        font-weight: normal;
-    } 
-</style>
+<p>This site is where I publish news that I have read, stories I’ve published, company I’ve profiled, and valuable tools I’m stumbled on across while researching how companies are monetizing their APIs. Much of my work in this area began with research conducted by John Musser, the founder of ProgrammableWeb. My goal is to build on his work, and establish a better understanding of common ways platforms are making money.</p>
 
-<ul class="toolbar">
-    <t>{"<a href="http://monetization.apievangelist.com/data/buildingblocks.json" title="JSON" target="_blank">JSON</a>"}</li>
-    <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
-</ul>
+<p>I execute on my API research by focusing in on specific areas like API monetization, getting to work understanding who the key actors are, which may include individual personalities, or corporate, government, or institutional entities. I profile each actor, and establish monitoring streams using Github, Twitter, RSS, Stack Exchange, and any other relevant channels. Throughout my monitoring I keep an eye out for interesting articles, white papers, announcements, and tooling that contribute to, and expands upon my definition of what is API monetization.</p>  
 
+<p>The more I research an area like API monetization, the more I’m able to identify common building blocks, that make up the space. For API monetization, this can be as fundamental as API definitions, or as specific as publishing and sharing interactive documentation. My interpretation of these building blocks change over time, and sometimes I will link up these building blocks with other research projects, or spin off as independent projects, allowing me to dive even deeper—for example, Swagger began as a building block on API management, and is now its own research area entirely.</p>  
 
-<p>Hopefully by the time you have put an API management plan in place, you already have a health business model in place, which should provide framework for you monetization goals.</p>
-<p>Its not just about how you are going to generate revenue via your API, it is also about how you will keep your API in operation, and performing for consumers.</p>
-<p>Not all APIs are created equal. The reasons for deploying an API can vary widely, but we are seeing some common patterns emerge.</p>
+<p><a href="https://creativecommons.org/licenses/by/3.0/us/">All my research is openly licensed CC-BY</a>, and is meant to help grow the awareness around healthy API monetization practices. I try to be as fair as I can when covering companies, individuals, and the tools they provide, but ultimately you will notice I have my favorites, and there are some areas I only touch on lightly, for a variety of personal reasons. I try to stay as neutral as I can when it comes to technological dogma, and company allegiance, but after almost five years, I have some pretty strong opinions, and can’t help but try and steer, and influence things in my own unique way. ;-)</p> 
 
-<!--BaaS Full Listing Template--->
-{% raw  %}
-
-<script id="buildingblockcategoryTemplate" type="text/template">       
-    <tr>
-        <td colspan="2" style="font-size: 16px; font-weight: bold;">{{category}}</td>
-    </tr>
-    <tr>
-        <td> 
-            <table id="{{slug}}" class="buildingblocklistingul"></table>
-        </td>
-    </tr>                                                                                                          
-</script>
-
-<script id="buildingblockTemplate" type="text/template">       
-    <tr>
-        <td width="60" align="center"><img src="{{image}}" width="75" align="left" style="padding: 15px;" /></td>
-        <td><strong>{{name}}</strong> - {{summary}}</td>
-    </tr>                                                                                               
-</script>
-{% endraw %}
-
-<!--BaaS Full Listing Container--->
-<div class="buildingblocklistingcontainter">
-    <table  id="buildingblockListing" class="buildingblockcategorylistingul"></table>
-</div>  
-
-<!--BaaS Full Listing JavaScript--->
-<script type="text/javascript">
-
-// Requires Mustache - http://mustache.github.io/
-
-function listbuidingblockcategories()
-    {
-    $.getJSON('/data/buildingblockcategories.json', function(data) {
-         $.each(data['buildingblockcategories'], function(key, val) {
-             
-            var template = $('#buildingblockcategoryTemplate').html();
-            var html = Mustache.to_html(template, val);
-            $('#buildingblockListing').append(html);  
-            });                                   
-        });           
-    } 
-    
-function listbuidingblocks()
-    {
-    $.getJSON('/data/buildingblocks.json', function(data) {
-         $.each(data['buildingblocks'], function(key, val) {
-            categoryslug = val['categoryslug']; 
-            var template = $('#buildingblockTemplate').html();
-            var html = Mustache.to_html(template, val);
-            $('#'+categoryslug).append(html);   
-            });                                   
-        });        
-    }    
-</script>
-
-<script type="text/javascript">
-listbuidingblockcategories();
-listbuidingblocks();
-</script>
-
-<p>Many companies start by focusing on launching and evolving their API strategy and gaining essential experience, before fully executing on their API monetization strategy--relying completely on indriect value from an API. While it is better to have a monetization strategy in place early, many are finding success by prioritizing the API first and monetziation second.</p>
-<p class="p1">With APIs being deployed in various capacities, within a company, privately between partners or in the public, a wide mix of monetization strategies can be used. Some API resources just lend themselves better to a pay as you go model, while some markets demand that data be freely accessible with the need to register or be charged for access. There is no one size fits all approach to API monetization.</p>
-<p class="p1">One way to think about an API is as an external research &amp; development lab within a company. A lab that accepts ideas and integrations from partners, incubates these ideas, applications and business relationships. &nbsp;Companies are using APIs to bring allow the introduction of outside ideas and talent into the mix, in hopes of inciting innovation. Some API providers will hand select the best integrations, invest in their individuals and companies, sometimes resulting in acquisitions of technology and the talent they possess--creating entirely new approaches to monetization you may not have thought of.</p>
-<p style="page-break-after: always;">Just like there is no on size fits all approach to API monetization, there are few constants in pricing or access. Even the pioneers in the space like Amazon Web Services are constantly adjusting, tweeking and experitmenting, trying to find the most competitive approach possible. APIs are about business development and finding new ways to monetize your new and existing resources.</p>                                     
-                                            
+<p>Thanks for reading!</p>                             
               
