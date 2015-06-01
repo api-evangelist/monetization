@@ -1,16 +1,5 @@
 [
 	{
-		"building_block_id": "207",
-		"building_block_category_id": "12",
-		"name": "Affiliate Program",
-		"about": "<p>Affiliate programs offer business rewards to affiliates for each visitor or customer brought about by the affiliate's own marketing efforts. Affiliate programs are increasingly being integrated with API developer ecosystems, sharing API revenue with the developers that build applications around the API. Revenue sharing opportunities for developers are a great incentive for them to learn about an API, and build solid applications that consume API services.</p>",
-		"category_id": "12",
-		"category": "Monetization",
-		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-handshake.jpg",
-		"image_width": "0",
-		"sort_order": "2"
-	},
-	{
 		"building_block_id": "871",
 		"building_block_category_id": "122",
 		"name": "Request Pricing",
