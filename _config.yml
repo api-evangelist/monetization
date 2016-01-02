@@ -56,12 +56,12 @@ navigation:
     size2: 60
     padding: 2
     decorate: 0
-  - label1: Organizations
-    link1: /companies.html
+  - label1: Building Blocks
+    link1: /building-blocks.html
     size1: 80
     extend: 1
     label2: JSON
-    link2: /data/companies.json
+    link2: /data/buildingblocks.json
     size2: 60
     padding: 0
     decorate: 0
