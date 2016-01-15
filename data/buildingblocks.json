@@ -330,17 +330,6 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "pzf1CyOU9GkYi5ZDp116O04h5Fx123YpniprD3RFStLlaG4mDJVWQw8ywXUoN4lMQBaC182AzRSQAQlLPToH2B3XrA117117",
-		"building_block_category_id": "aLvMJf0x116INRDwaMJ8sxkC70iT0chQq6R7bUeRaJTITwoGGrFUF7cZzAhV9Q18hzISiLshCeRX8JdWkkAx6q4w117117",
-		"name": "Education",
-		"about": "Providing a specific access tier for education partners, including students, teachers, and institutions. Providing higher levels of free access, and lower price points.rn",
-		"category_id": "124",
-		"category": "Access Levels",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
 		"building_block_id": "cyJd05yk2ZD2ctkap6116n116ZSxtZuTKSh2onZis5fX8wy116kKUXR9JEjYmNwDq116fk2T8COP5oj116H123KYgq7116GlSe0g117117",
 		"building_block_category_id": "aLvMJf0x116INRDwaMJ8sxkC70iT0chQq6R7bUeRaJTITwoGGrFUF7cZzAhV9Q18hzISiLshCeRX8JdWkkAx6q4w117117",
 		"name": "Partner",
