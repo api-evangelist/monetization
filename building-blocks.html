@@ -82,54 +82,15 @@ title: 'Building Blocks'
 </tr>
 <tr>
 <td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Access Levels</h2>
+<h2>Direct Value</h2>
 </td>
 </tr>
 <tr>
 <td align="left" valign="top">
 <ul>
-<li><strong>Free</strong> - This is just a free API, I won't be rate limiting the usage of it. It will act similar to any website I put out there, but instead of HTML it is JSON.
-</li>
-<li><strong>Free Trial</strong> - I am only going to offer a limited use, or time period for access a resource, giving just a taste test, but won't be in main pool of APIs available. 
-</li>
-<li><strong>Not For Profit</strong> - This API is being subsidized somehow. Either there is direct investment from internal or external resources to subsidize or there is a grant involved.
-</li>
-<li><strong>Educational Access</strong> - Is this API available as an educational resource, with special pricing for students and teachers? This will usually be reflected in the tier, and credit availability.
-</li>
-<li><strong>Tier(s)</strong> - Which of these service tiers is an API available in, and which endpoint paths + verbs are accessible in the tier (api-pricing definition).
-</li>
-<li><strong>Public</strong> - General access, you usually don't even need a key. Only limited to specific APIs.
-</li>
-<li><strong>Retail</strong> - This is the pay as you go level for public acess to all APIs. This is where the retail side of business operations will occur.
-</li>
-<li><strong>Trusted</strong> - These are just a handful of trusted individuals or companies, who may have write access to some endpoints.
-</li>
-<li><strong>Partner</strong> - These are partners I have prearranged agreements with, something I will be transparent about, showcasing them on partner page.
-</li>
-<li><strong>Wholesale</strong> - The wholesale, often non-rate limited portion of my platform, where I deploy APIs in other people infrastructure, or our own for flat fees.
-</li>
-<li><strong>Platform</strong> - This is all internal access by applications I build for my own usage. I still rate limit, and manage this access, I just give myself different privileges.
-</li>
-<li><strong>Partner Program</strong> - A structured program allowing API consumers to achieve higher levels of access, with reduced pricing levels, flat rate access, and other benefits.
-</li>
-<li><strong>Reseller Program</strong> - A structured programming for allowing API consumers to prove themselves, and share in revenues from API usage, affiliate links, and revenue share.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Pricing & Credits</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Value of Resources</strong> - What is the value of an API resource? Often you will be just making this up, but at the least you should be able to articulate in some way.</li>
-<li><strong>Revenue</strong> - What revenue opportunities for the ecosystem around an API and its operation, sharing in the money made from platform operations.</li>
 <li><strong>API Value</strong> - Each API will have its own credit rate set, where some will be one credit, while others may be 100 credits to make a single call, it can be defined by API or a specific endpoint.
 </li>
-<li><strong>Daily Limit</strong> - The daily allowed credit limit will be determined by the access level tier is registered at, starting with daily free public access to retail, trusted, and potentially custom tiers.
+<li><strong>Limits</strong> - The daily allowed credit limit will be determined by the access level tier is registered at, starting with daily free public access to retail, trusted, and potentially custom tiers.
 </li>
 <li><strong>Usage</strong> - How many credits does any one user use during a day, week, or month, across all APIs. When each API is used, it will apply the defined credit value for the single API call.
 </li>
@@ -145,12 +106,30 @@ title: 'Building Blocks'
 </li>
 <li><strong>Applying</strong> - Can you wait to apply credits you have accumulated? Given the option with each billing cycle to apply, or you may want to wait and use at future date.
 </li>
+<li><strong>Value</strong> - What is the value of an API resource? Often you will be just making this up, but at the least you should be able to articulate in some way.</li>
+<li><strong>Revenue</strong> - What revenue opportunities for the ecosystem around an API and its operation, sharing in the money made from platform operations.</li>
+<li><strong>Timeframes</strong> - What timeframes can be leverage to generate direct value? Timeframes should be used in conjunction with plans to dial in the value generated.</li>
+<li><strong>Metrics</strong> - What are the metrics, no matter what you choose to track by, what is the metric and its value? The most common metrics is the hit, but could be any other quantifiable metric you can consider.</li>
+<li><strong>Geo</strong> - How can geographic location be leverage as part of determining value generation? Different data centers, or networks, or possibly as part of support. How can geographic constraints be applied to maximize value generated.</li>
+<li><strong>Resources</strong> - The best part of API design, is you can dial in your value generate to the smallest unit of compute, the single API resource. How are APIs value generation considered at the individual level like this? </li>
+<li><strong>Extensions</strong> - Are there extensions available that will impact the developers, or end-users experience. Can extensions be used for a default experience, or added on to incrementally increase value generated.</li>
+<li><strong>Usage</strong> - How is usage wielded as part of value generation? Is value about the increased usage of a resource, or possible value generated by a minimum usage of a resource? Usage is an important dimension of determining how value is generated as part of API operations.</li>
+<li><strong>Fees</strong> - How are fees leveraged as part of value generation, where like usage, fees driving that value generation, or possibly the lack of fees is where the value lies.  Where, within the ecosystem do discussing fees make sense?</li>
+<li><strong>Donations</strong> - Does API operations depend on donations, either one time, or possibly soliciting ongoing donations to make sure an API operations. An actual API may be present to allow for donations to occur in-line.</li>
+<li><strong>Grants</strong> - Is the value generated around API operations because of a single, or possibly multiple grants? How are grant programs leveraged to develop the API itself, or possibly drive the evolution of resources made available via APIs.</li>
+<li><strong>Percentages</strong> - Is value generation measured in percentages? Such as revenue share, or percentage of any resource usage for free. There are a number of ways to think about percentages, and how they apply to defining value generation.</li>
+<li><strong>Users</strong> - How is value generated on a per user level? More users is valuable, or possible fewer users. Teams, groups, and many other ways to determine how users impact positively or negatively the value generated from platform usage.</li>
+<li><strong>Relationships</strong> - How can relationships between users, or companies be applied to value generated? Will access to more relationships positively or negatively impact how value is generated for platform, and consumers?</li>
+<li><strong>Support</strong> - Is access to support something that impacts the value being generated? Does access to support resources introduce the optimal levels of value consumers are looking for? How is support wielded within overall platform monetization.</li>
+<li><strong>Applications</strong> - Is value generated looked at on a per application basis? Does having multiple applications impact the value generate? Coming up with interesting ways to understand how applications impact platform value for everyone.</li>
+<li><strong>Integrations</strong> - What external integrations are available? How can these be leveraged to enhance the value for consumers? Are some integrations part of base operations, where others are accessible at higher levels, or on a one off basis.</li>
+<li><strong>Investment</strong> - Similar to donations, what investment possibilities are part of platform operations? How can access to invest be a value option for consumers, and be used to create more value for platform operators? </li>
 </ul>
 </td>
 </tr>
 <tr>
 <td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Indirect Value Generation</h2>
+<h2>Indirect Value</h2>
 </td>
 </tr>
 <tr>
@@ -158,12 +137,22 @@ title: 'Building Blocks'
 <ul>
 <li><strong>Marketing Vehicle</strong> - Having an API is cool these days, and some APIs are worth just having for the PR value, and extending the overall brand of the platform.
 </li>
-<li><strong>Web or Mobile Traffic</strong> - The API exists solely for distributing links to web and mobile applications, driving traffic to specific properties - is this tracked as part of other analytics?
+<li><strong>Traffic Generation</strong> - The API exists solely for distributing links to web and mobile applications, driving traffic to specific properties - is this tracked as part of other analytics?
 </li>
 <li><strong>Brand Awareness</strong> - Applying a brand strategy, and using the API to incentivize publishers to extend the reach of the brand and ultimately the platform - can we quantify this?
 </li>
 <li><strong>Data & Content Acquisition</strong> - Using the API, and the applications built on top as part of a larger data and content acquisition strategy--can we quantify this?
 </li>
+<li><strong>SaaS</strong> - Value generated is focused on SaaS services, and API value generation is about augmenting these services, secondary to the core SaaS business model.</li>
+<li><strong>PaaS</strong> - Value generated is focused on PaaS services, and API value generation is about augmenting these services, secondary to the core PaaS business model.</li>
+<li><strong>Devices</strong> - An API exists purely in support of a device, such as Fitbit, or with a 3D Robotics Drone. All value generated by the API is about enhancing, and building on the overall device experience.</li>
+<li><strong>Products</strong> - An API exists in support of a specific product. Just like devices, but products could be physical devices that are not connected to the database.</li>
+<li><strong>Services</strong> - As with products, an API may exist to augment an existing in-person, or possibly a digital service being offered by a company. The API value is centered around this service, and not the actual API.</li>
+<li><strong>Syndication</strong> - An API exists to help syndicate data or content on the web. All value generated by the API is in service of the syndication process.</li>
+<li><strong>Analytics</strong> - How can analytics be leveraged as part of API value generation? Are analytics part of the base of operations, or are they an added value incentive for consumers, and platform operators.</li>
+<li><strong>Reporting</strong> - How is reporting via an API platform part over the overall value being generated? Reporting can be something that benefits internal or external operators, and bring more value to the table.</li>
+<li><strong>Talent</strong> - How is talent, from an HR perspective considered as part of the value being generated by an API? Does the API exists as a sort of honeypot to attract talent for hire, project work, or possibly acquisitions and investments.</li>
+<li><strong>Security</strong> - How is security used as a lens for measuring, quantifying, and delivering value via the platform. Does the existence of security only available at higher levels or on-demand usage? Security will continue to play an ever increasing role in API monetization.</li>
 </ul>
 </td>
 </tr>
@@ -181,29 +170,37 @@ title: 'Building Blocks'
 </li>
 <li><strong>Credits to Bill</strong> - All revenue is paid in credits on account, and user can decide to get buy out of credits at any time, or possibly use in other aspects of system operation.
 </li>
+<li><strong>Reseller</strong> - Is there a reseller program available for any levels of API platform operations? Are API consumers incentivized to sell products or services, in which they are compensated for? How can platform value being broken up using reseller approaches?</li>
 </ul>
 </td>
 </tr>
 <tr>
 <td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Internal Revenue Generation</h2>
+<h2>Reporting</h2>
 </td>
 </tr>
 <tr>
 <td align="left" valign="top">
 <ul>
-<li><strong>Monthly</strong> - How much revenue is being brought in on a monthly basis for an API and all of its endpoints.
+<li><strong>Timeframe</strong> - How much revenue is being brought in on a daily, weekly, monthly, quarterly, or annual basis for an API and all of its endpoints.
 </li>
 <li><strong>Users</strong> - How much revenue is being brought in on a monthly basis for a specific user, for an API and all of its endpoints.
 </li>
 <li><strong>Applications</strong> - How much revenue is being brought in on a monthly basis for a specific application, for an API and all of its endpoints.
 </li>
-<li><strong>Tiers</strong> - Which tiers generate most usage and revenue? I should be applying just as easily to aspects of platform / internal usage as well.
+<li><strong>Plans</strong> - Which plans generate most usage and revenue? I should be applying just as easily to aspects of platform / internal usage as well. Better understanding value generated across all plan levels.
 </li>
 <li><strong>Affiliate Revenue</strong> - What was generated from affiliate links made available via APIs, minus what percentage was paid out to API consumers.
 </li>
 <li><strong>Advertising Revenue</strong> - What advertising revenue was derived from web or mobile application traffic resulting from the API, minus whatever was paid out as rev share to API consumers.</li>
+<li><strong>Country</strong> - How are things broken down by country? Country defined API operations will continue to be an important way to look at API operations, and value generated.</li>
+<li><strong>Region</strong> - Keeping in alignment with traditional sales regions, and looking at value generated within specific regions.</li>
 </ul>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Extensions</h2>
 </td>
 </tr>
 </table>
