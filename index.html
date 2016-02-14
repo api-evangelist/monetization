@@ -16,8 +16,10 @@ title: API Monetization
       {% assign countpost = 1 %}
       {% for post in site.posts limit:50 %}
         {% if post.title != null %}
+          {% if countpost < 5 %}
           <li><a href="{{ post.source }}">{{ post.title }}</a> ({{ countpost }})</li>
           {% assign countpost = countpost | plus: 1 %}
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
