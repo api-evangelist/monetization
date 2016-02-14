@@ -14,7 +14,7 @@ title: API Monetization
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
     <ul class="newslist">
       {% assign countpost = 1 %}
-      {% for post in site.posts limit:25 %}
+      {% for post in site.posts limit:50 %}
         {% if post.title != null %}
           <li><a href="{{ post.source }}">{{ post.title }}</a> ({{ countpost }})</li>
           {% assign countpost = countpost + 1 %}
