@@ -3,7 +3,7 @@ layout: page
 title: API Monetization
 ---
 <p style="font-size: 12px; padding:5px;">
-  <img src="{{ site.project_image }}" align="right" width="75" style="padding: 2px;" />
+  <img src="{{ site.project_image }}" align="right" width="75" style="padding:10px;" />
   {{ site.project_summary }}
 </p>
 
@@ -13,15 +13,8 @@ title: API Monetization
   <div class="span4" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
     <ul class="newslist">
-      {% assign totalpost = 4 %}
-      {% assign countpost = 1 %}
-      {% for post in site.posts limit:50 %}
-        {% if post.title != null %}
-          {% if countpost < totalpost %}
-            <li><a href="{{ post.source }}">{{ post.title }}</a></li>
-          {% assign countpost = countpost | plus: 1 %}
-          {% endif %}
-        {% endif %}
+      {% for curated in site.data.curated  limit:5 %}
+        <li><a href="{{ curated.url }}">{{ curated.title }}</a></li>
       {% endfor %}
     </ul>
 
@@ -36,7 +29,7 @@ title: API Monetization
               var el = $(this);
               $title = el.find("title").text();
               $link = el.find("link").text();
-              if($listcount<2){
+              if($listcount<5){
                 $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
                 $('#rssNews').append($listitem);
                 }
@@ -56,7 +49,7 @@ title: API Monetization
   <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
 
     <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="#" onclick="alert('Coming Soon!'); return false;"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-101.jpg" width="45" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;Learn The Basics From This Research</strong></a></li>
+      <li><a href="#"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-101.jpg" width="45" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;Learn The Basics From This Research</strong></a></li>
     </ul>
 
   </div>
@@ -64,26 +57,7 @@ title: API Monetization
   <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
 
     <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://spreadsheets.apievangelist.com"><strong>Visit My Research On Spreadsheets&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
-    </ul>
-
-  </div>
-
-</div>
-<div class="row" align="center" style="">
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="/journey/">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-journey.png" width="25" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;Take a Journey Through Research</strong></a></li>
-    </ul>
-
-  </div>
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://plans.apievangelist.com"><strong>Visit My Research Around API Plans&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+      <li><a href="http://branding.apievangelist.com"><strong>Visit My Research On API Branding&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
     </ul>
 
   </div>
@@ -95,7 +69,7 @@ title: API Monetization
 
     <!--
     <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://bit.ly/1ISZaev">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pdf.png" width="22" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;&nbsp;View the PDF of This Research</strong></a></li>
+      <li><a href="http://bit.ly/1JZBO9f">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pdf.png" width="22" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;&nbsp;View the PDF of This Research</strong></a></li>
     </ul>
     -->
 
@@ -104,7 +78,7 @@ title: API Monetization
   <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
 
     <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://partners.apievangelist.com"><strong>Visit My Research On API Partners&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+      <li><a href="http://patents.apievangelist.com"><strong>Visit My Research On API Patents&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
     </ul>
 
   </div>

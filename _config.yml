@@ -3,25 +3,21 @@ url:          http://monetization.apievangelist.com
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-monetization.png
 logo_width:   80
 logo_bottom_padding: 10
-
 version:      1.1.1
 author:
   name:       'Kin Lane'
   email:      'info@apievangelist.com'
 markdown:     kramdown
 
-permalink: /:categories/:year/:month/:day/:title
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+permalink: /:categories/:year/:month/:day/:title/
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 
 paginate: 150
-paginate_path: "/news/page:num"
-
-categories_path : /categories.html
-tags_path : /tags.html
+paginate_path: "/blog/page:num"
 
 # Masthead title
 masthead_link: http://monetization.apievangelist.com
-masthead_font_size: 75
+masthead_font_size: 85
 masthead_title: '{"API Monetization"}'
 
 # Feature
@@ -45,6 +41,15 @@ navigation:
     size2: 0
     padding: 0
     decorate: 0
+  - label1: Blog
+    link1: /blog/
+    size1: 80
+    extend: 1
+    label2: RSS
+    link2: /blog.xml
+    size2: 60
+    padding: 0
+    decorate: 0
   - label1: News
     link1: /news/
     size1: 80
@@ -52,16 +57,7 @@ navigation:
     label2: RSS
     link2: /blog.xml
     size2: 60
-    padding: 2
-    decorate: 0
-  - label1: Building Blocks
-    link1: /building-blocks/
-    size1: 80
-    extend: 1
-    label2: JSON
-    link2: /data/buildingblocks.json
-    size2: 60
-    padding: 0
+    padding: 5
     decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
@@ -70,7 +66,7 @@ navigation:
     label2:
     link2:
     size2: 10
-    padding: 20
+    padding: 12
     decorate: 1
 
 # Footer Navigation
@@ -92,5 +88,20 @@ footernavigation:
 
 # sponsors
 sponsors_margin_top: 15
-sponsors_padding_top: 10
+sponsors_padding_top: 3
 sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+
+# Footer
+footer_title: API Evangelist
+footer_link: http://apievangelist.com
+footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_width: 60
+
+# curated
+curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API monetization--these are the links I am including in my research.
+
+# organizations
+org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API monetization. These are the organizations I'm currently including in my API monetization research.
+
+# tools
+tools_desc: These are the open source management related tooling that I am tracking on as part of my research, and can be used as part of the API monetization process.
