@@ -1,0 +1,62 @@
+---
+layout: post
+title: 'An API Monetization Framework To Help Me Standardize Pricing For The APIs I Bring Online'
+source: http://monetization.apievangelist.com/2015/08/29/an-api-monetization-framework-to-help-me-standardize-pricing-for-the-apis-i-bring-online/
+domain: monetization.apievangelist.com
+image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-monetization.png
+atomdate: 2015-08-29T17:48:39-07:00
+---
+<p><a href="http://monetization.apievangelist.com/"><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-monetization.png" alt="" width="250" align="right" /></a></p>
+<p>I'm almost to the point with <a href="https://kin-lane.github.io/master/">my API stack</a>, where I can start plugging in new APIs I have planned. Up until now, the APIs i have deployed, are of little use to a wider commercial audience. However some of the APIs I have planned for the next year, I'm looking to monetize their usage, and operate as part of a larger commercially viable API stack. (practice what I preach baby!)</p>
+<p>To run this stack, I need a plug and play way to define what an API is costing me, and potentially how much revenue I am generating from each API. With this in mind, here is my draft look at an API monetization framework, that I am employing across my API Stack.&nbsp;</p>
+<p><strong>Acquisition</strong> (One Time or Recurring)</p>
+<p><strong> </strong></p>
+<ul>
+<strong> </strong> 
+</ul>
+<ul>
+<li><strong>Discover - </strong>What did I spent to find this. I may have had to buy someone dinner or beer to find, as well as time on the Internet searching.</li>
+<li><strong>Negotiate</strong> - What time to I have in actually getting access to something. Sometimes its time, and sometimes it costs me.&nbsp;</li>
+<li><strong>Licensing</strong> - There is a chance I would license a database from a company or institution, so I want to have this option in there. Even if this is open source, I want the license referenced.</li>
+<li><strong>Purchase</strong> - Also the chance I may buy a database from someone outright, or pay them to put the database together, resulting in one-time fee.&nbsp;</li>
+</ul>
+<p><strong>&nbsp;Development</strong> (One Time or Recurring)<strong>&nbsp;</strong></p>
+<ul>
+<li><strong>Normalization</strong> - What does it take me to cleanup, and normalize a dataset, or across content. This is usually he busy janitorial work necessary.</li>
+<li><strong>Design</strong> - What does it take me to generate a Swagger and API Blueprint, something that isn't just auto-generated, but also has a hand polish to it.</li>
+<li><strong>Database</strong> - How much work am I putting into setting up the database. A lot of this I can automate, but there is always a setup cost.</li>
+<li><strong>Server</strong> - Defining the amount of work I put into setting up, and configuring the server to run a new API, including where it goes in my operations plan.</li>
+<li><strong>Coding</strong> - How much work to I put into actually coding an API. I use the Slim PHP framework, and using automation scripts I can generate 75% of it usually.</li>
+<li><strong>DNS</strong> - What was the overhead in me defining, and configuring the DNS for any API, setting up endpoint domain, as well as potentially a portal URL.&nbsp;</li>
+</ul>
+<p><strong><strong><strong>Operation</strong></strong></strong> (Recurring)</p>
+<ul>
+<li><strong>Compute</strong> - What percentage of my AWS compute is dedicated to an API. Flat percentage of the server its one until usage history exists.</li>
+<li><strong>Storage</strong> - How much on disk storage am I using to operate an API? Could fluctuate from month to month, and exponentially increase for some.</li>
+<li><strong>Bandwidth</strong> - How much bandwidth in / out is an API using to get the job done.</li>
+<li><strong>Management</strong> - What percentage of API management resources is dedicated to the API. A flat percentage of API management overhead until usage history exists.</li>
+<li><strong>Evangelism</strong> - How much energy do I put into evangelizing any single API? Did I write a blog post, or am I'm buying Twitter or Google Ads? How is word getting out?</li>
+<li><strong>Monitoring</strong> - What percentage of the API monitoring, testing, and performance service budget is dedicated to this API. How large is surface area for monitoring?</li>
+</ul>
+<p><strong><strong><strong><strong>Pricing </strong></strong></strong></strong>(Recurring)</p>
+<ul>
+<li><strong>Tier(s) -</strong> Which of the 7 service tiers is an API available in, and which endpoint paths + verbs are accessible in the tier (api-pricing definition).</li>
+<li><strong>Credit(s) -</strong> How many credits does an API use when any single endpoint is engaged, specified as entire endpoint or individual paths + verbs (api-credit definition).</li>
+</ul>
+<ul>
+<strong><strong><strong> </strong></strong></strong> 
+</ul>
+<p><strong><strong><strong> </strong></strong></strong></p>
+<p><strong><strong><strong><strong>Revenue </strong></strong></strong></strong>(Recurring)</p>
+<ul>
+<li><strong>Monthly</strong> - How much revenue is being brought in on a monthly basis for an API and all of its endpoints.</li>
+<li><strong>Users</strong>&nbsp;- How much revenue is being brought in on a monthly basis for a specific user, for an API and all of its endpoints.</li>
+<li><strong>Applications</strong>&nbsp;- How much revenue is being brought in on a monthly basis for a specific application,&nbsp;for an API and all of its endpoints.</li>
+</ul>
+<p>I am looking for this framework to help me set pricing, and rate limits for any API I publish. My goal is to rapidly make available some valuable databases, and more functional APIs using common open source software, available for free, but also generate enough revenue from high volume users, to run the whole thing. To do this, I need to understand exactly what an API is costing, allowing me to set a price, with the intent of breaking even, and then generating some revenue where it makes sense.</p>
+<p>As part of this work I will be generate an APIs.json type I am calling <a href="http://api-pricing.apievangelist.com">api-pricing</a>, which I am looking to help be balance out consumption across my API stack. Using my <a href="http://3scale.net">3Scale API infrastructure</a> I am able to easily add and subtract credits for API usage across users, and apps, then handle the billing based upon what pricing I have set for all my API usage.</p>
+<p>My pricing will not just be about retail usage. Some of my APIs I will be deployed in other people's infrastructure, and letting them control the pricing, credits, and service composition. This is the wholesale layer to my strategy, allowing me to go beyond my own internal usage, by B2D usage, and open up new opportunities for API deployment and consumption.</p>
+<p>As with most of my work, I'm going to be very transparent about my pricing, making sure it is indexed within each APIs.json file, and available alongside each APIs Swagger, API Blueprint, Postman Collection, and API Science monitor--encouraging wider consumption, and processing.</p>
+<ul>
+<strong><strong><strong> </strong></strong></strong> 
+</ul>
