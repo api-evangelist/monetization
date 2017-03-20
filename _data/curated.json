@@ -1,5 +1,37 @@
 [
 	{
+		"curated_id": "y3vAYp0tGgjkSs9EHEBv2BtsygGIrELqgMFwEUNlxAB5Mg5uWNP4QDRBSgmNfr41tc5WtY6116YmIAqJOK8jNYLQ117117",
+		"item_date": "2017-03-13 00:00:00",
+		"title": "New  Instance Size Flexibility for EC2 Reserved Instances",
+		"url": "https://aws.amazon.com/blogs/aws/new-instance-size-flexibility-for-ec2-reserved-instances/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Jdt9MtClEVnSmrwiXf2LuAyC123ITi0Q116jNwStUFBVHyvDWKRsGKvb8s0P123a9BCSN7WHcHFPTVF123LW6NefwPeBmQ117117",
+		"item_date": "2017-03-14 00:00:00",
+		"title": "AWS follows Google with Reserved Instance flexibility changes",
+		"url": "http://www.pcworld.com/article/3180821/cloud-computing/aws-follows-google-with-reserved-instance-flexibility-changes.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "LdAmLs3yb2elTOkxqIAyJXurlcKmv7nlsn41Lr3aAR116jWFgrlWcVGb4lNhecAamQFMOozvYYxNyb7lbhVLjHWA117117",
+		"item_date": "2017-03-18 00:00:00",
+		"title": "Hosting Alexa Skills on AWS is Almost Free Now",
+		"url": "https://www.infoq.com/news/2017/03/amazon-alexa-host-promotion",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YvMRUjE6NEE0uW0116CWe0R9qowFqOJVyxwTnfqLACL2tUr2i69xTvYdED9J0FeFtssPDgUzfnxkTX6116UzkWJRDw117117",
+		"item_date": "2017-03-17 00:00:00",
+		"title": "Unlimited data plans propaganda and the art of brinkmanship",
+		"url": "https://disruptiveviews.com/unlimited-data-plans-brinkmanship/",
+		"domain": "disruptiveviews.com",
+		"image": ""
+	},
+	{
 		"curated_id": "uAjoooVBn2oLOkDqYN4D39fUhUeHZIAAFeyRPiGQB9Zjp59MLHuoGrr57MO5mnfbPv1iOMlGpKXTgp7bONOQ123A117117",
 		"item_date": "2017-03-11 00:00:00",
 		"title": "Smart meters can overbill by 582",
