@@ -1,0 +1,42 @@
+---
+layout: page
+title: API Definition Organizations
+---
+
+{% assign organization_content = site.data.organization_content.index[0] %}
+<section>
+  <header class="main">
+    <h2>{{ organization_content.title }}</h2>
+  </header>
+<p><img style="padding: 15px;" src="{{ organization_content.image }}" align="right" width="35%" /></p>  
+  <p>{{ organization_content.header }}</p>
+  <div class="features">
+		{% assign organizations = site.data.organizations.index %}
+    {% for organization in organizations %}
+			<article>
+				<p><a href="{{ organization.url }}" target="_blank"><img style="padding: 15px; vertical-align: top;" src="{{ organization.image }}" width="175" align="center" /></a></p>
+				<div class="content">
+					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
+					<p>{{ organization.description }}</p>
+					<ul class="icons">
+						<li><a href="{{ organization.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
+						{% if organization.twitter != '' %}
+						<li><a href="{{ organization.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						{% endif %}
+						{% if organization.blog != '' %}
+						<li><a href="{{ organization.blog }}" class="icon fa-rss"><span class="label">Blog</span></a></li>
+						{% endif %}
+						{% if organization.blog_rss != '' %}
+						<li><a href="{{ organization.blog_rss }}" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
+						{% endif %}
+						{% if organization.github != '' %}
+						<li><a href="{{ organization.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
+						{% endif %}
+					</ul>
+				</div>
+			</article>
+    {% endfor %}
+	</div>
+
+  <p>{{ organization_content.footer }}</p>
+</section>
