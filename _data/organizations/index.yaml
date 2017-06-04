@@ -1,0 +1,51 @@
+- slug: aria-systems
+  name: Aria Systems
+  description: >-
+    Aria provides a cloud-based monetization platform for subscription- and
+    usage-based businesses. Aria removes billing bottlenecks and allows
+    companies to rapidly introduce and evolve their offerings, bundles, and
+    promotions. Only Aria provides speed and agility at scale in the cloud,
+    delivers actionable customer insights, and empowers business users with
+    direct control to better monetize their offerings.
+  url: 'http://www.ariasystems.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/ariasystemsinc'
+  blog: 'http://www.ariasystems.com/blog/'
+  blog_rss: 'http://www.ariasystems.com/blog/feed/'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aria-systems-color-logo-top.svg
+  tags: Monetization
+- slug: google-cloud-billing
+  name: Google Cloud Billing
+  description: >-
+    The Google Cloud Billing API provides methods that you can use to
+    programmatically manage billing for your projects in the Google Cloud
+    Platform.
+  url: 'https://cloud.google.com/billing/docs/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
+  tags: 'Google APIs,Monetization,Plans'
+- slug: google-apps-admin-sdk
+  name: Google Apps Admin SDK
+  description: >-
+    Administer domain resources, create reports, and manage subscriptions. Use
+    the Directory API to create and manage users and groups for a domain, along
+    with their aliases. Programmatically access the functionality found at the
+    Admin console Organization and users tab. Use the Reports API to gain
+    insights on Content with Google Drive activity reports. Audit administrator
+    actions. Generate customer and user usage reports.
+  url: 'https://developers.google.com/admin-sdk/'
+  short_url: ''
+  twitter: ''
+  blog: 'https://gsuite-developers.googleblog.com/search/label/Admin%20SDK'
+  blog_rss: 'https://gsuite-developers.googleblog.com/feeds/posts/default?alt=rss'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  tags: 'Google APIs,Applications,Documents,Licensing,SDK,Monetization,Reseller'
