@@ -348,28 +348,28 @@
   url: https://dzone.com/articles/secrets-awesome-javascript-api
   domain: dzone.com
   image: ""
-- curated_id: 7785d938c648fb3319535d2273439564
-  item_date: "2013-08-20 00:00:00"
-  title: 'Api Design, Part 2: Design Messaging Styles By Balancing...'
-  url: https://www.forrester.com/report/API+Design+Part+2+Design+Messaging+Styles+By+Balancing+Reach+With+Your+Other+Design+Goals/-/E-RES102022
-  domain: www.forrester.com
-  image: ""
 - curated_id: 0d4ef097a8242fa4d5c91c721c9c26d6
   item_date: "2013-08-20 00:00:00"
   title: 'Api Design, Part 3: Make Transactions And Error Handling...'
   url: https://www.forrester.com/report/API+Design+Part+3+Make+Transactions+And+Error+Handling+Clear+In+Your+API+Designs/-/E-RES102023
   domain: www.forrester.com
   image: ""
-- curated_id: 6350da14586b319eb98c4a37dff14636
+- curated_id: 7785d938c648fb3319535d2273439564
   item_date: "2013-08-20 00:00:00"
-  title: 'Api Design, Part 1: Rest Is The Leading But Not Only...'
-  url: https://www.forrester.com/report/API+Design+Part+1+REST+Is+The+Leading+But+Not+Only+Option+For+Your+APIs/-/E-RES102021
+  title: 'Api Design, Part 2: Design Messaging Styles By Balancing...'
+  url: https://www.forrester.com/report/API+Design+Part+2+Design+Messaging+Styles+By+Balancing+Reach+With+Your+Other+Design+Goals/-/E-RES102022
   domain: www.forrester.com
   image: ""
 - curated_id: 3b2b75b8e4651a1f5ff4c19cfa89adfc
   item_date: "2013-08-20 00:00:00"
   title: 'Api Design, Part 4: Future-proof And Secure Your Apis...'
   url: https://www.forrester.com/report/API+Design+Part+4+FutureProof+And+Secure+Your+APIs+To+Fit+Your+Usage+Scenarios/-/E-RES102024
+  domain: www.forrester.com
+  image: ""
+- curated_id: 6350da14586b319eb98c4a37dff14636
+  item_date: "2013-08-20 00:00:00"
+  title: 'Api Design, Part 1: Rest Is The Leading But Not Only...'
+  url: https://www.forrester.com/report/API+Design+Part+1+REST+Is+The+Leading+But+Not+Only+Option+For+Your+APIs/-/E-RES102021
   domain: www.forrester.com
   image: ""
 - curated_id: 75e378f435ff8be00494caeb7c1a867b
@@ -819,6 +819,12 @@
   url: http://nordicapis.com/using-templates-for-documentation-driven-api-design/
   domain: nordicapis.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/nordicapis-comusing-templates-for-documentation-driven-api-design.png
+- curated_id: QqzGfbBYOWSLnbhVr1233waluDL6Xr7cjQEBbS48JH4h8DoJ3ItBTQgdk7NTYAIWphcizVBI8rG2eKp4rPUKNnTA117117
+  item_date: "2015-02-20 00:00:00"
+  title: LucyBot Eliminates CrossLanguage Programming Necessity
+  url: http://www.programmableweb.com/news/lucybot-eliminates-cross-language-programming-necessity/brief/2015/02/20
+  domain: www.programmableweb.com
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-programmableweb-comnewslucybot-eliminates-cross-language-programming-necessitybrief20150220.png
 - curated_id: STHZs1a123L9FCgfWP94I0Sc5SihdhKqiKdYRIR0PK4lESe9PXk51P18QI780lIAg454DCBfmE8UBsuB1qInUpEQ117117
   item_date: "2015-02-20 00:00:00"
   title: API Best Practices The Wrap Up
@@ -831,12 +837,6 @@
   url: http://www.programmableweb.com/news/mulesoft-releases-raml-.net-parser-visual-studio-extension/2015/02/20
   domain: www.programmableweb.com
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-programmableweb-comnewsmulesoft-releases-raml--net-parser-visual-studio-extension20150220.png
-- curated_id: QqzGfbBYOWSLnbhVr1233waluDL6Xr7cjQEBbS48JH4h8DoJ3ItBTQgdk7NTYAIWphcizVBI8rG2eKp4rPUKNnTA117117
-  item_date: "2015-02-20 00:00:00"
-  title: LucyBot Eliminates CrossLanguage Programming Necessity
-  url: http://www.programmableweb.com/news/lucybot-eliminates-cross-language-programming-necessity/brief/2015/02/20
-  domain: www.programmableweb.com
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-programmableweb-comnewslucybot-eliminates-cross-language-programming-necessitybrief20150220.png
 - curated_id: IIngeWuMGFGoJeAH2UXBSc2Gk6tk1hjLPM3H1nHX7uzGRz7kCQbVVspghX2XHAEjeDLnOvaOyVqzZgK0iq123ngA117117
   item_date: "2015-02-20 08:48:02"
   title: LucyBot  Get your APIs consumers moving faster
@@ -1576,12 +1576,6 @@
   url: https://sendgrid.com/blog/using-a-prototype-as-an-api-product-specification/
   domain: sendgrid.com
   image: ""
-- curated_id: bcMBFo123E61DH5Rw73UpJWr4o123qWhqbajzzrbRjOCFGgjtDFby8nHl4qgydbDUhNCQi3O3RTD9Ty5116P7aAKmkXQ117117
-  item_date: "2016-02-17 00:00:00"
-  title: Dear API Designer Are You Sure You Want to Return a Primitive
-  url: https://dzone.com/articles/dear-api-designer-are-you-sure-you-want-to-return
-  domain: dzone.com
-  image: ""
 - curated_id: hiLirbaQ4NlZkTXhYQhipgDJg116pqSEQzbf123DYPMRUGrD5123TZb1anvAoXlJwgsuZWHDY6p116JkDa4kZMBDtNFSrg117117
   item_date: "2016-02-17 00:00:00"
   title: Resolving the FrontendBackend API Design Conflict
@@ -1593,6 +1587,12 @@
   title: Why Github039s Scientist 10 Could Be Great for API Versioning
   url: http://www.programmableweb.com/news/why-githubs-scientist-1.0-could-be-great-api-versioning/analysis/2016/02/17
   domain: www.programmableweb.com
+  image: ""
+- curated_id: bcMBFo123E61DH5Rw73UpJWr4o123qWhqbajzzrbRjOCFGgjtDFby8nHl4qgydbDUhNCQi3O3RTD9Ty5116P7aAKmkXQ117117
+  item_date: "2016-02-17 00:00:00"
+  title: Dear API Designer Are You Sure You Want to Return a Primitive
+  url: https://dzone.com/articles/dear-api-designer-are-you-sure-you-want-to-return
+  domain: dzone.com
   image: ""
 - curated_id: 0OSxMK09116K3SCioB0NMqBXstRka123czJIG7eBex00tkXiUfx6kcramPTB123NSNIJ7ZN39UjsZxfHX6jFgUyA123b123A117117
   item_date: "2016-02-17 10:52:18"
@@ -2291,12 +2291,6 @@
   url: https://swagger-toolbox.firebaseapp.com/
   domain: swagger-toolbox.firebaseapp.com
   image: ""
-- curated_id: R6JBesMvzzhL1FpnPgbc116SiTJ1b116Yi2QTA9alNEZ1dKpV9HhpM2tHekG1bVVuklTUaQnyH1GruehxyWZH8mWdw117117
-  item_date: "2016-12-14 00:00:00"
-  title: API Modeling A ZeroCode Way To a Designer API
-  url: http://www.tibco.com/blog/2016/12/14/api-modeling-a-zero-code-way-to-a-designer-api/
-  domain: www.tibco.com
-  image: ""
 - curated_id: Jg5bAi9PLGNP9IJKUxF4iXAx0aW123q1tK66AiMWRkAWZ2F5GUqAB123zPjPMsyRNSUdEIz85OoVV1iUXfYO6xnMeQ117117
   item_date: "2016-12-14 00:00:00"
   title: Foundations of RESTful Architecture
@@ -2308,6 +2302,12 @@
   title: 7 Secrets to Designing Alexa Skills
   url: https://dzone.com/articles/7-secrets-to-designing-alexa-skills
   domain: dzone.com
+  image: ""
+- curated_id: R6JBesMvzzhL1FpnPgbc116SiTJ1b116Yi2QTA9alNEZ1dKpV9HhpM2tHekG1bVVuklTUaQnyH1GruehxyWZH8mWdw117117
+  item_date: "2016-12-14 00:00:00"
+  title: API Modeling A ZeroCode Way To a Designer API
+  url: http://www.tibco.com/blog/2016/12/14/api-modeling-a-zero-code-way-to-a-designer-api/
+  domain: www.tibco.com
   image: ""
 - curated_id: hCTkehE2fpb12356q116riWdoE9npZ8nzB0XHa3AAS2yKJU123RMX123tFyGtE7HBPP3OCF9VxQpS2cd9dghkJWD1234cK116w117117
   item_date: "2016-12-18 00:00:00"
@@ -2411,17 +2411,17 @@
   url: https://hackernoon.com/visualising-complex-apis-using-api-map-f09f617acb32#.8y525mrpn
   domain: hackernoon.com
   image: ""
-- curated_id: 2tAS4n97EhMF8Pq99onfpXmy326QRc6oCZ7UxKEAttwyfZrjp123Wrv123tSNWEJT9krMPj91rwCIr6fPNsxUJZREQ117117
-  item_date: "2017-02-07 00:00:00"
-  title: HTML APIs What They Are And How To Design A Good One
-  url: https://newze.net/404-error-page/
-  domain: newze.net
-  image: ""
 - curated_id: gEkQR813o116HF8yldGiKvDtog1zeI9n4116fIHr5E7njDlzfcFoMh1HenoG9xDFFq123IM4116uY6GFuQjfDNUFkcXSDg117117
   item_date: "2017-02-07 00:00:00"
   title: Use a Local API to Protect Global Methods in a Distributed Environment
   url: https://www.codeproject.com/Tips/1169500/Use-a-Local-API-to-Protect-Global-Methods-in-a-Dis
   domain: www.codeproject.com
+  image: ""
+- curated_id: 2tAS4n97EhMF8Pq99onfpXmy326QRc6oCZ7UxKEAttwyfZrjp123Wrv123tSNWEJT9krMPj91rwCIr6fPNsxUJZREQ117117
+  item_date: "2017-02-07 00:00:00"
+  title: HTML APIs What They Are And How To Design A Good One
+  url: https://newze.net/404-error-page/
+  domain: newze.net
   image: ""
 - curated_id: gCK4O9BWxWcBb9dnQDKBWP09J34pOlV2mK123dJUI116rgJm4cmHXnYEBgiGf886QlDbh1w621Lm9QIO2ap6VnxjLA117117
   item_date: "2017-02-08 00:00:00"
@@ -2528,17 +2528,17 @@
   url: https://tyk.io/2017/03/06/api-management-events-webhooks-microservices/
   domain: tyk.io
   image: ""
-- curated_id: IXNnXpt4KbvV7SYgrhePZLdBLnGWsSIw1JJu123ivKjBlyRQBaG6hc1S8pVpOYZIBA8Dubiho7oDZE4wIMwmfOWg117117
-  item_date: "2017-03-08 00:00:00"
-  title: Two Forgotten Aspects to an API Design First Approach
-  url: https://medium.com/m/global-identity
-  domain: medium.com
-  image: ""
 - curated_id: y7aIobXwBSysxDKTD7AyDx1ueYEqJlj4qY3riZMtIE3g1Y9klS4fguFLYyBUdsKFPW10oamsMlPPVwhaC116gEOw117117
   item_date: "2017-03-08 00:00:00"
   title: 4 Ways Your API Is Not Quite What I Want
   url: https://zapier.com/engineering/api-pet-peeves/
   domain: zapier.com
+  image: ""
+- curated_id: IXNnXpt4KbvV7SYgrhePZLdBLnGWsSIw1JJu123ivKjBlyRQBaG6hc1S8pVpOYZIBA8Dubiho7oDZE4wIMwmfOWg117117
+  item_date: "2017-03-08 00:00:00"
+  title: Two Forgotten Aspects to an API Design First Approach
+  url: https://medium.com/m/global-identity
+  domain: medium.com
   image: ""
 - curated_id: q1Nq1168Bcxhx3GzO5iZjXpvvGQiI1dZu7Jz6TNpVb1JutCa673BNVWfZoU116r3Yxl2OvB6MyFoO0VXYYOz116f1116Vg117117
   item_date: "2017-03-08 10:12:12"
@@ -2752,17 +2752,17 @@
   url: https://github.com/18F/doi-extractives-data/wiki/Little-rules-for-designing-with-data
   domain: github.com
   image: ""
-- curated_id: YESer1QlB0ywuCcgSxl116JAWB6UjFCPUQNBgRPzGPcD123URPs9tetLeSHqUQbJ886osMMKr1167ctZXYx5h8VafAnA117117
-  item_date: "2017-05-03 00:00:00"
-  title: The two perspectives of API design
-  url: https://restlet.com/company/blog/2017/05/03/the-two-perspectives-of-api-design/
-  domain: restlet.com
-  image: ""
 - curated_id: W07EnCoRP4i0F3dLBpZku0xDNXV123GLaaPTNhBzIMrDTO2UJd4Tguc116L116n1BFUUCklkzbVJ1V3E4nmsropW116Jdg117117
   item_date: "2017-05-03 00:00:00"
   title: REST API Industry Debate OData vs GraphQL vs ORDS
   url: https://www.progress.com/blogs/rest-api-industry-debate-odata-vs-graphql-vs-ords
   domain: www.progress.com
+  image: ""
+- curated_id: YESer1QlB0ywuCcgSxl116JAWB6UjFCPUQNBgRPzGPcD123URPs9tetLeSHqUQbJ886osMMKr1167ctZXYx5h8VafAnA117117
+  item_date: "2017-05-03 00:00:00"
+  title: The two perspectives of API design
+  url: https://restlet.com/company/blog/2017/05/03/the-two-perspectives-of-api-design/
+  domain: restlet.com
   image: ""
 - curated_id: Hjeb94UAR03xqLCT123OSpCjFvg116saP2gANJbbeigUwyk2k2bhvOwj1239Qoved123VwvCptzrSQ9hvxKkcPZqlblzbg117117
   item_date: "2017-05-04 00:00:00"
@@ -2831,14 +2831,14 @@
   item_date: "2017-05-22 15:43:58"
   title: The Resource Groups Tagging API Makes It Easier to List Your Resources by
     Using a New Pagination Parameter
-  url: https://aws.amazon.com/blogs/security/the-resource-groups-tagging-api-now-supports-pagination-by-the-number-of-resources-and-automated-pagination-in-the-aws-cli/?sc_channel=sm&sc_campaign=rgtaggingapipagination&sc_publisher=tw&sc_medium=tw&sc_content=readpost&sc_country=global&sc_geo=global&sc_category=cloudformation&sc_outcome=other
+  url: https://aws.amazon.com/blogs/security/the-resource-groups-tagging-api-now-supports-pagination-by-the-number-of-resources-and-automated-pagination-in-the-aws-cli/?sc_channel=sm&amp;sc_campaign=rgtaggingapipagination&amp;sc_publisher=tw&amp;sc_medium=tw&amp;sc_content=readpost&amp;sc_country=global&amp;sc_geo=global&amp;sc_category=cloudformation&amp;sc_outcome=other
   domain: aws.amazon.com
   image: ""
 - curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15c3256c00f:1b0be31:1980c846
   item_date: "2017-05-22 15:43:58"
   title: The Resource Groups Tagging API Makes It Easier to List Your Resources by
     Using a New Pagination Parameter
-  url: https://aws.amazon.com/blogs/security/the-resource-groups-tagging-api-now-supports-pagination-by-the-number-of-resources-and-automated-pagination-in-the-aws-cli/?sc_channel=sm&amp;sc_campaign=rgtaggingapipagination&amp;sc_publisher=tw&amp;sc_medium=tw&amp;sc_content=readpost&amp;sc_country=global&amp;sc_geo=global&amp;sc_category=cloudformation&amp;sc_outcome=other
+  url: https://aws.amazon.com/blogs/security/the-resource-groups-tagging-api-now-supports-pagination-by-the-number-of-resources-and-automated-pagination-in-the-aws-cli/?sc_channel=sm&sc_campaign=rgtaggingapipagination&sc_publisher=tw&sc_medium=tw&sc_content=readpost&sc_country=global&sc_geo=global&sc_category=cloudformation&sc_outcome=other
   domain: aws.amazon.com
   image: ""
 - curated_id: UGoT913Pj2iVsp570XrRhskqe5/o7yyV3N/NTloByRs=_15c35b703cd:1d0c6d4:bb404dd5
@@ -3116,6 +3116,12 @@
   item_date: "2017-06-22 12:22:02"
   title: "10 Things I Hate About Your API \u2014 Amanda Folson"
   url: https://medium.com/p/2189f0d9dc3f
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15cdd909051:123fdb:35f03cd7
+  item_date: "2017-06-24 12:30:34"
+  title: Swagger, the API Economy, REST, Linked Data, and a Semantic Web
+  url: https://medium.com/p/9d6839dae65a
   domain: medium.com
   image: ""
 ...
