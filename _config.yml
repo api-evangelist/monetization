@@ -1,6 +1,6 @@
 title:        API Monetization
-url:          http://Monetization.apievangelist.com
-raw_url: http://Monetization.apievangelist.com/apis/
+url:          http://monetization.apievangelist.com
+raw_url: http://monetization.apievangelist.com/apis/
 
 tag: Monetization
 
@@ -21,7 +21,7 @@ paginate: 25
 paginate_path: "/blog/page:num"
 
 github_user: api-evangelist
-github_repo: Monetization
+github_repo: monetization
 github_branch: gh-pages
 
 # Footer
