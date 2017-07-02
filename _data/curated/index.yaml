@@ -30,6 +30,12 @@
   url: http://bits.blogs.nytimes.com/2015/02/18/atts-offer-share-your-data-for-personalized-ads-or-pay-more//partner=rss&amp;emc=rss
   domain: bits.blogs.nytimes.com
   image: ""
+- curated_id: 3759e473ad69ee43c565693f2784f815
+  item_date: "2015-02-18 00:00:00"
+  title: 'Bits Blog: ATT?s Offer: Share Your Data for Personalized Ads, or Pay More'
+  url: http://bits.blogs.nytimes.com/2015/02/18/atts-offer-share-your-data-for-personalized-ads-or-pay-more//partner=rss&amp;emc=rss
+  domain: bits.blogs.nytimes.com
+  image: ""
 - curated_id: 07c209eae170367fe29112ef5ac10c4c
   item_date: "2015-02-19 00:00:00"
   title: Filepicker introduces new plans and pricing
@@ -231,18 +237,18 @@
   url: http://venturebeat.com/2015/05/19/personalization-as-a-service-new-revenue-stream-for-ibm-watson/
   domain: venturebeat.com
   image: ""
+- curated_id: 73d415b6a955b4ca2750fd0f4cddc5a8
+  item_date: "2015-05-21 00:00:00"
+  title: Google wants you to buy things straight through YouTube videos (GOOG)
+  url: http://www.businessinsider.com/youtube-trueview-for-shopping-2015-5
+  domain: www.businessinsider.com
+  image: ""
 - curated_id: 77b925617e19df4d1e46ad2f2c8acf48
   item_date: "2015-05-21 00:00:00"
   title: Chartboost introduces new services to help mobile game developers maximize
     their revenue
   url: http://venturebeat.com/2015/05/21/chartboost-introduces-new-services-to-help-mobile-game-developers-maximize-their-revenue/
   domain: venturebeat.com
-  image: ""
-- curated_id: 73d415b6a955b4ca2750fd0f4cddc5a8
-  item_date: "2015-05-21 00:00:00"
-  title: Google wants you to buy things straight through YouTube videos (GOOG)
-  url: http://www.businessinsider.com/youtube-trueview-for-shopping-2015-5
-  domain: www.businessinsider.com
   image: ""
 - curated_id: af57fc2683b07b56af7030639b7a59b2
   item_date: "2015-05-22 00:00:00"
@@ -529,11 +535,12 @@
   url: http://disruptiveviews.com/making-money-from-apis-like-to-see-that/
   domain: disruptiveviews.com
   image: ""
-- curated_id: 0f315f4bd6c7aa3e3947d11cf082d17e
+- curated_id: 4f19bcdb406f4f5114738a51eb85a5bd
   item_date: "2015-12-15 00:00:00"
-  title: Amazon Releases AWS Price List API
-  url: http://www.programmableweb.com/news/amazon-releases-aws-price-list-api/brief/2015/12/15
-  domain: www.programmableweb.com
+  title: Slack hits 2M daily active users, launches third-party App Directory, $80M
+    developer fund
+  url: http://venturebeat.com/2015/12/15/slack-hits-2m-daily-active-users-launches-third-party-app-directory-80m-developer-fund/
+  domain: venturebeat.com
   image: ""
 - curated_id: 1e8aafbb4cfe2e2756dbbe7f661b4cb1
   item_date: "2015-12-15 00:00:00"
@@ -541,18 +548,17 @@
   url: http://venturebeat.com/2015/12/15/googles-bigquery-cloud-service-adds-custom-quotas-to-limit-daily-spending/
   domain: venturebeat.com
   image: ""
+- curated_id: 0f315f4bd6c7aa3e3947d11cf082d17e
+  item_date: "2015-12-15 00:00:00"
+  title: Amazon Releases AWS Price List API
+  url: http://www.programmableweb.com/news/amazon-releases-aws-price-list-api/brief/2015/12/15
+  domain: www.programmableweb.com
+  image: ""
 - curated_id: 50eab39b38287e1b6cf5eb7aa19f3d18
   item_date: "2015-12-15 00:00:00"
   title: Slack introduces $80M developer fund and extensive app directory
   url: http://thenextweb.com/apps/2015/12/16/slack-introduces-80m-developer-fund-and-extensive-app-directory/
   domain: thenextweb.com
-  image: ""
-- curated_id: 4f19bcdb406f4f5114738a51eb85a5bd
-  item_date: "2015-12-15 00:00:00"
-  title: Slack hits 2M daily active users, launches third-party App Directory, $80M
-    developer fund
-  url: http://venturebeat.com/2015/12/15/slack-hits-2m-daily-active-users-launches-third-party-app-directory-80m-developer-fund/
-  domain: venturebeat.com
   image: ""
 - curated_id: fddd0ad71c7274e8a76e0ee2a915a8b0
   item_date: "2015-12-15 19:05:04"
@@ -572,18 +578,6 @@
   url: https://aws.amazon.com/blogs/aws/new-aws-cost-and-usage-reports-for-comprehensive-and-customizable-reporting/
   domain: aws.amazon.com
   image: ""
-- curated_id: 77856b222f0287aa7b03d27bb1bd6c80
-  item_date: "2016-01-05 00:00:00"
-  title: AWS Cost Explorer Update ? Access to EC2 Usage Data
-  url: https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data/
-  domain: aws.amazon.com
-  image: ""
-- curated_id: 87c926bf57ef0990074e948d94a2d21b
-  item_date: "2016-01-05 00:00:00"
-  title: AWS cuts prices for select instances
-  url: http://www.zdnet.com/article/aws-cuts-prices-for-select-instances/#ftag=RSSbaffb68
-  domain: www.zdnet.com
-  image: ""
 - curated_id: cefa0c7563222fb9f93e58a962528354
   item_date: "2016-01-05 00:00:00"
   title: AWS cuts prices of its R3, C4, M4 instances
@@ -595,6 +589,18 @@
   title: Licensing and Pricing Strategies for the IoT
   url: https://www.ariasystems.com/blog/licensing-and-pricing-strategies-for-the-iot/
   domain: www.ariasystems.com
+  image: ""
+- curated_id: 87c926bf57ef0990074e948d94a2d21b
+  item_date: "2016-01-05 00:00:00"
+  title: AWS cuts prices for select instances
+  url: http://www.zdnet.com/article/aws-cuts-prices-for-select-instances/#ftag=RSSbaffb68
+  domain: www.zdnet.com
+  image: ""
+- curated_id: 77856b222f0287aa7b03d27bb1bd6c80
+  item_date: "2016-01-05 00:00:00"
+  title: AWS Cost Explorer Update ? Access to EC2 Usage Data
+  url: https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data/
+  domain: aws.amazon.com
   image: ""
 - curated_id: ac5d8939dadd011191101d6aa040bb3c
   item_date: "2016-01-07 00:00:00"
@@ -712,11 +718,11 @@
   url: https://dzone.com/articles/10-ways-to-monetize-your-iot-apis
   domain: dzone.com
   image: ""
-- curated_id: e80e036ea3404b24e180e5ad73e16d45
+- curated_id: 59c8efb46d9537431c8e26a62f6844d2
   item_date: "2016-03-22 00:00:00"
-  title: Additional Pricing Options for AWS Marketplace Products
-  url: https://aws.amazon.com/blogs/aws/additional-pricing-options-for-aws-marketplace-products/
-  domain: aws.amazon.com
+  title: 'Industry Opinion: As Twitter Turns 10, Here?s How I?d Monetize It'
+  url: https://www.brandwatch.com/2016/03/industry-opinion-heres-how-id-monetise-twitter/
+  domain: www.brandwatch.com
   image: ""
 - curated_id: 580473c2763a6be811421a515c391824
   item_date: "2016-03-22 00:00:00"
@@ -724,11 +730,11 @@
   url: http://www.nytimes.com/2016/03/23/technology/crowdsignals-aims-to-create-a-marketplace-for-smartphone-sensor-data.html
   domain: www.nytimes.com
   image: ""
-- curated_id: 59c8efb46d9537431c8e26a62f6844d2
+- curated_id: e80e036ea3404b24e180e5ad73e16d45
   item_date: "2016-03-22 00:00:00"
-  title: 'Industry Opinion: As Twitter Turns 10, Here?s How I?d Monetize It'
-  url: https://www.brandwatch.com/2016/03/industry-opinion-heres-how-id-monetise-twitter/
-  domain: www.brandwatch.com
+  title: Additional Pricing Options for AWS Marketplace Products
+  url: https://aws.amazon.com/blogs/aws/additional-pricing-options-for-aws-marketplace-products/
+  domain: aws.amazon.com
   image: ""
 - curated_id: 5352744380ec22fd1b65e74f8c85e53a
   item_date: "2016-03-24 00:00:00"
@@ -1092,18 +1098,18 @@
   url: https://techcrunch.com/2016/11/01/gigster-fund/
   domain: techcrunch.com
   image: ""
-- curated_id: c1fd5d482a05db5f005e69fa056cf77d
-  item_date: "2016-11-02 00:00:00"
-  title: LastPass on mobile is now free
-  url: https://techcrunch.com/2016/11/02/free-lastpass/
-  domain: techcrunch.com
-  image: ""
 - curated_id: 6457875fbd64cce8e6faa7cd35949ccf
   item_date: "2016-11-02 00:00:00"
   title: Mark Zuckerberg just explained how close Messenger and WhatsApp are to making
     money (FB)
   url: http://www.businessinsider.com/mark-zuckerberg-monetization-plans-messenger-whatsapp-2016-11
   domain: www.businessinsider.com
+  image: ""
+- curated_id: c1fd5d482a05db5f005e69fa056cf77d
+  item_date: "2016-11-02 00:00:00"
+  title: LastPass on mobile is now free
+  url: https://techcrunch.com/2016/11/02/free-lastpass/
+  domain: techcrunch.com
   image: ""
 - curated_id: f68c8d97534c5c6d3c482bd76d1f033c
   item_date: "2016-11-10 00:00:00"
@@ -1154,11 +1160,12 @@
   url: https://flipboard.com/@flipboard/flip.it%2FOfsZQ0-instead-of-optimizing-processes-reimagi/f-2418440aca%2Fhbr.org
   domain: flipboard.com
   image: ""
-- curated_id: 92a0ed27f9fe6062b5cfc06fc2e2abfc
+- curated_id: 2739887e72ea2615b6e1cc0f0b127924
   item_date: "2017-01-04 00:00:00"
-  title: Amazon Web Services Expands the AWS Price List API
-  url: https://www.programmableweb.com/news/amazon-web-services-expands-aws-price-list-api/brief/2017/01/04
-  domain: www.programmableweb.com
+  title: "Earn up to $1,500 for Healthy Behavior with Fitbit\u2019s New Healthcare
+    Integration"
+  url: https://blog.fitbit.com/fitbit-charge-2-healthcare-integration/
+  domain: blog.fitbit.com
   image: ""
 - curated_id: 06b91ca62eff678b4d5c8ad0543abd86
   item_date: "2017-01-04 00:00:00"
@@ -1167,25 +1174,17 @@
   url: http://www.businessinsider.com/twitter-cofounder-evan-williams-lays-off-one-third-of-staff-at-medium-closes-two-offices-2017-1
   domain: www.businessinsider.com
   image: ""
-- curated_id: 2739887e72ea2615b6e1cc0f0b127924
+- curated_id: 92a0ed27f9fe6062b5cfc06fc2e2abfc
   item_date: "2017-01-04 00:00:00"
-  title: "Earn up to $1,500 for Healthy Behavior with Fitbit\u2019s New Healthcare
-    Integration"
-  url: https://blog.fitbit.com/fitbit-charge-2-healthcare-integration/
-  domain: blog.fitbit.com
+  title: Amazon Web Services Expands the AWS Price List API
+  url: https://www.programmableweb.com/news/amazon-web-services-expands-aws-price-list-api/brief/2017/01/04
+  domain: www.programmableweb.com
   image: ""
-- curated_id: bf69f3e74e040cf8383d173114760887
+- curated_id: ba0681b5f41f4a19936a9669b2043a14
   item_date: "2017-01-05 00:00:00"
-  title: 'CES 2017: T-Mobile CEO Taunts Competition By Doubling Down On Unlimited
-    Plans; Reimbursing For Unused Data'
-  url: http://www.crn.com/news/networking/300083324/ces-2017-t-mobile-ceo-taunts-competition-by-doubling-down-on-unlimited-plans-reimbursing-for-unused-data.htm
-  domain: www.crn.com
-  image: ""
-- curated_id: c07c991d36769255845245ab72bd6668
-  item_date: "2017-01-05 00:00:00"
-  title: Apples App Store generated $20 billion for developers in 2016
-  url: http://www.reuters.com/article/us-apple-appstore-idUSKBN14P1L7
-  domain: www.reuters.com
+  title: Venture capital is going to murder Medium
+  url: https://m.signalvnoise.com/venture-capital-is-going-to-murder-medium-656cbccf4829#.8oqnzfix1
+  domain: m.signalvnoise.com
   image: ""
 - curated_id: 1f9b3209d977c42a4318fa39d9ac18a1
   item_date: "2017-01-05 00:00:00"
@@ -1194,11 +1193,18 @@
   url: http://www.niemanlab.org/2017/01/medium-lays-off-dozens-as-it-tries-to-find-a-publishing-business-model-that-may-not-actually-exist-yet/
   domain: www.niemanlab.org
   image: ""
-- curated_id: ba0681b5f41f4a19936a9669b2043a14
+- curated_id: c07c991d36769255845245ab72bd6668
   item_date: "2017-01-05 00:00:00"
-  title: Venture capital is going to murder Medium
-  url: https://m.signalvnoise.com/venture-capital-is-going-to-murder-medium-656cbccf4829#.8oqnzfix1
-  domain: m.signalvnoise.com
+  title: Apples App Store generated $20 billion for developers in 2016
+  url: http://www.reuters.com/article/us-apple-appstore-idUSKBN14P1L7
+  domain: www.reuters.com
+  image: ""
+- curated_id: bf69f3e74e040cf8383d173114760887
+  item_date: "2017-01-05 00:00:00"
+  title: 'CES 2017: T-Mobile CEO Taunts Competition By Doubling Down On Unlimited
+    Plans; Reimbursing For Unused Data'
+  url: http://www.crn.com/news/networking/300083324/ces-2017-t-mobile-ceo-taunts-competition-by-doubling-down-on-unlimited-plans-reimbursing-for-unused-data.htm
+  domain: www.crn.com
   image: ""
 - curated_id: 63a789c7a05a76cc449facb8444782f4
   item_date: "2017-01-09 00:00:00"
@@ -1225,17 +1231,17 @@
   url: http://spectrum.ieee.org/energywise/energy/policy/calculating-the-full-cost-of-electricityfrom-power-plant-to-wall-socket
   domain: spectrum.ieee.org
   image: ""
-- curated_id: 738779655d951f04eb11ae52d68612dd
-  item_date: "2017-01-13 00:00:00"
-  title: "Are Ad-Blockers Saving Internet Users, or Ruining the Internet?\r\n"
-  url: http://motherboard.vice.com/read/are-ad-blockers-saving-internet-users-or-ruining-the-internet
-  domain: motherboard.vice.com
-  image: ""
 - curated_id: 366364d0c61560cdd711e1ca5e7e618f
   item_date: "2017-01-13 00:00:00"
   title: Tesla adds fees to Supercharging network
   url: http://www.siliconbeat.com/2017/01/13/tesla-adds-fees-supercharging-network/
   domain: www.siliconbeat.com
+  image: ""
+- curated_id: 738779655d951f04eb11ae52d68612dd
+  item_date: "2017-01-13 00:00:00"
+  title: "Are Ad-Blockers Saving Internet Users, or Ruining the Internet?\r\n"
+  url: http://motherboard.vice.com/read/are-ad-blockers-saving-internet-users-or-ruining-the-internet
+  domain: motherboard.vice.com
   image: ""
 - curated_id: effd1b23f00287cdfa08cb7cb434186f
   item_date: "2017-01-17 00:00:00"
@@ -1298,12 +1304,38 @@
   url: https://techcrunch.com/2017/02/08/xeneta-series-b/
   domain: techcrunch.com
   image: ""
+- curated_id: ab1c3febefed3cc61e467aefa0bd2f89
+  item_date: "2017-02-13 00:00:00"
+  title: Verizons move to unlimited data ups ante in wireless war
+  url: http://www.reuters.com/article/us-verizon-data-competition-idUSKBN15S277
+  domain: www.reuters.com
+  image: ""
 - curated_id: 1016642bea97ce591d03e97d195f9c22
   item_date: "2017-02-13 00:00:00"
   title: There is no such thing as an unlimited data plan, despite what carriers tell
     you (VZ)
   url: http://www.businessinsider.com/unlimited-data-is-a-myth-2017-2
   domain: www.businessinsider.com
+  image: ""
+- curated_id: d824cf158973f091ba327f8987490184
+  item_date: "2017-02-13 00:00:00"
+  title: "Verizon\u2019s Unlimited Data Plan Is Back. Here\u2019s How It Compares
+    to Other Carriers"
+  url: https://www.wired.com/2017/02/verizons-unlimited-data-plan-back-heres-compares-carriers/
+  domain: www.wired.com
+  image: ""
+- curated_id: 4cd2dac7229ef6015dc61c9fb46d67b4
+  item_date: "2017-02-13 00:00:00"
+  title: Verizon revives its unlimited data plan after purging legacy unlimited data
+    plan users
+  url: http://www.macworld.com/article/3168722/mobile/verizon-revives-its-unlimited-data-plan-after-purging-legacy-unlimited-data-plan-users.html#tk.rss_all
+  domain: www.macworld.com
+  image: ""
+- curated_id: 4a187f995b22cef8cdb57216b2a55ea1
+  item_date: "2017-02-13 00:00:00"
+  title: Warewolf AMI in the AWS Marketplace
+  url: https://warewolf.io/ESB-blog/warewolf-ami-aws-marketplace/
+  domain: warewolf.io
   image: ""
 - curated_id: b688c7c9ee3f6a79bc62a8c5038b4782
   item_date: "2017-02-13 00:00:00"
@@ -1324,32 +1356,6 @@
   url: https://www.wired.com/2017/02/unlimited-data-party-will-last-big-four-become-big-three/
   domain: www.wired.com
   image: ""
-- curated_id: 4a187f995b22cef8cdb57216b2a55ea1
-  item_date: "2017-02-13 00:00:00"
-  title: Warewolf AMI in the AWS Marketplace
-  url: https://warewolf.io/ESB-blog/warewolf-ami-aws-marketplace/
-  domain: warewolf.io
-  image: ""
-- curated_id: d824cf158973f091ba327f8987490184
-  item_date: "2017-02-13 00:00:00"
-  title: "Verizon\u2019s Unlimited Data Plan Is Back. Here\u2019s How It Compares
-    to Other Carriers"
-  url: https://www.wired.com/2017/02/verizons-unlimited-data-plan-back-heres-compares-carriers/
-  domain: www.wired.com
-  image: ""
-- curated_id: ab1c3febefed3cc61e467aefa0bd2f89
-  item_date: "2017-02-13 00:00:00"
-  title: Verizons move to unlimited data ups ante in wireless war
-  url: http://www.reuters.com/article/us-verizon-data-competition-idUSKBN15S277
-  domain: www.reuters.com
-  image: ""
-- curated_id: 4cd2dac7229ef6015dc61c9fb46d67b4
-  item_date: "2017-02-13 00:00:00"
-  title: Verizon revives its unlimited data plan after purging legacy unlimited data
-    plan users
-  url: http://www.macworld.com/article/3168722/mobile/verizon-revives-its-unlimited-data-plan-after-purging-legacy-unlimited-data-plan-users.html#tk.rss_all
-  domain: www.macworld.com
-  image: ""
 - curated_id: 4711f0c5f77bacfcf9d55d684313eb42
   item_date: "2017-02-15 00:00:00"
   title: Configuring Kali Linux on AWS for FREE to get the Public IP
@@ -1368,17 +1374,17 @@
   url: https://blog.pusher.com/realtime-content-monetisation-strategy-in-2017-for-digital-publishers/
   domain: blog.pusher.com
   image: ""
-- curated_id: 13eb315053b0d42b26efd4b86620a59f
-  item_date: "2017-03-02 00:00:00"
-  title: Amex Platinum cardholders will get $200 in free Uber rides every year
-  url: http://www.theverge.com/2017/3/2/14791714/american-express-platinum-uber-free-ride-credit
-  domain: www.theverge.com
-  image: ""
 - curated_id: 948c1c57649787265e0f5770b4648daf
   item_date: "2017-03-02 00:00:00"
   title: "FAQs about SimplyCast\u2019s Reseller Program"
   url: https://www.simplycast.com/blog/faqs-about-simplycasts-reseller-program/
   domain: www.simplycast.com
+  image: ""
+- curated_id: 13eb315053b0d42b26efd4b86620a59f
+  item_date: "2017-03-02 00:00:00"
+  title: Amex Platinum cardholders will get $200 in free Uber rides every year
+  url: http://www.theverge.com/2017/3/2/14791714/american-express-platinum-uber-free-ride-credit
+  domain: www.theverge.com
   image: ""
 - curated_id: cf4ee79661e1abd4486a6286ecb194a7
   item_date: "2017-03-03 00:00:00"
