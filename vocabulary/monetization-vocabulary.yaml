@@ -1,0 +1,355 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Monetization
+  description: Vocabulary for the API and SaaS monetization topic, covering subscription billing, usage metering, usage-based pricing, entitlements, revenue recognition, and API gateway monetization.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Stripe Billing
+      namespace: stripe
+      status: active
+    - name: Chargebee
+      namespace: chargebee
+      status: active
+    - name: Recurly
+      namespace: recurly
+      status: active
+    - name: Lago
+      namespace: lago
+      status: active
+    - name: Metronome
+      namespace: metronome
+      status: active
+    - name: Orb
+      namespace: orb
+      status: active
+    - name: m3ter
+      namespace: m3ter
+      status: active
+    - name: Amberflo
+      namespace: amberflo
+      status: active
+    - name: Togai
+      namespace: togai
+      status: active
+    - name: Zuora
+      namespace: zuora
+      status: active
+    - name: Maxio
+      namespace: maxio
+      status: active
+    - name: Stigg
+      namespace: stigg
+      status: active
+    - name: Schematic
+      namespace: schematic
+      status: active
+    - name: Moesif
+      namespace: moesif
+      status: active
+    - name: APIToolkit
+      namespace: apitoolkit
+      status: active
+    - name: Apigee Monetization
+      namespace: apigee
+      status: active
+    - name: Zuplo
+      namespace: zuplo
+      status: active
+
+  resources:
+    - name: customers
+      description: Billing customers or accounts being charged for products or usage
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+    - name: plans
+      description: Priced plans and packages offered to customers
+      actions:
+        - list
+        - get
+        - create
+        - update
+    - name: subscriptions
+      description: Recurring subscriptions binding a customer to a priced plan
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - cancel
+    - name: meters
+      description: Definitions of metered events and the dimensions used to filter and aggregate them
+      actions:
+        - list
+        - get
+        - create
+        - update
+    - name: usage-events
+      description: Individual metered events ingested for usage-based billing
+      actions:
+        - ingest
+        - list
+        - get
+    - name: invoices
+      description: Generated invoices with line items for fees, usage, taxes, and credits
+      actions:
+        - list
+        - get
+        - finalize
+        - void
+    - name: entitlements
+      description: Per-customer feature access and plan limits derived from a subscription
+      actions:
+        - check
+        - list
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: create
+      description: Create a new resource
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: cancel
+      description: Cancel a subscription, immediately or at period end
+      httpMethod: POST
+      pattern: write
+    - name: ingest
+      description: Submit a usage event to a metering engine
+      httpMethod: POST
+      pattern: write
+    - name: finalize
+      description: Finalize an invoice so it becomes immutable and chargeable
+      httpMethod: POST
+      pattern: write
+    - name: void
+      description: Void a previously issued invoice
+      httpMethod: POST
+      pattern: destructive
+    - name: check
+      description: Check whether a customer is entitled to a feature or quota
+      httpMethod: GET
+      pattern: read
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+
+  schemas:
+    core:
+      - name: Subscription
+        description: A recurring subscription binding a customer to a priced plan
+        properties:
+          - id
+          - customer_id
+          - plan_code
+          - status
+          - billing_model
+          - currency
+          - billing_interval
+          - current_period_start
+          - current_period_end
+          - components
+      - name: UsageEvent
+        description: A single metered usage event ingested for usage-based billing
+        properties:
+          - event_id
+          - meter_code
+          - customer_id
+          - subscription_id
+          - timestamp
+          - quantity
+          - unit
+          - properties
+
+  enums:
+    subscription_status:
+      - trialing
+      - active
+      - past_due
+      - paused
+      - canceled
+      - expired
+    billing_models:
+      - flat
+      - tiered
+      - volume
+      - graduated
+      - package
+      - usage-based
+      - hybrid
+    billing_intervals:
+      - day
+      - week
+      - month
+      - quarter
+      - year
+    component_types:
+      - recurring
+      - metered
+      - per_seat
+      - one_time
+
+capability:
+  workflows:
+    - name: SaaS Subscription Billing
+      description: Operate recurring subscriptions with trials, proration, dunning, and tax for a SaaS product
+      apis:
+        - stripe
+        - chargebee
+        - recurly
+        - maxio
+      personas:
+        - Billing Operator
+        - Finance Operator
+      domains:
+        - Subscription Billing
+    - name: Usage-Based API Pricing
+      description: Meter API or product usage and bill customers per-unit, in tiers, or against prepaid credits
+      apis:
+        - lago
+        - metronome
+        - orb
+        - amberflo
+        - togai
+        - m3ter
+      personas:
+        - Pricing Engineer
+        - Platform Engineer
+      domains:
+        - Usage Metering
+    - name: Entitlements and Plan Gating
+      description: Drive feature access and plan limits from a central entitlements service
+      apis:
+        - stigg
+        - schematic
+      personas:
+        - Product Engineer
+      domains:
+        - Entitlements
+    - name: API Gateway Monetization
+      description: Attach plans, quotas, and per-call pricing to APIs at the gateway and analyze monetized traffic
+      apis:
+        - apigee
+        - zuplo
+        - moesif
+        - apitoolkit
+      personas:
+        - API Product Manager
+        - Platform Engineer
+      domains:
+        - API Monetization
+    - name: Revenue Recognition and Finance Sync
+      description: Reconcile billed and recognized revenue between billing and ERP systems
+      apis:
+        - zuora
+        - sage-intacct
+        - chargebee
+      personas:
+        - Finance Operator
+      domains:
+        - Revenue Recognition
+
+  personas:
+    - id: billing-operator
+      name: Billing Operator
+      description: Operators running day-to-day subscription billing, invoicing, and dunning
+      workflows:
+        - SaaS Subscription Billing
+    - id: pricing-engineer
+      name: Pricing Engineer
+      description: Engineers and product owners designing and implementing pricing models on metering engines
+      workflows:
+        - Usage-Based API Pricing
+    - id: product-engineer
+      name: Product Engineer
+      description: Engineers integrating entitlement checks into product code
+      workflows:
+        - Entitlements and Plan Gating
+    - id: api-product-manager
+      name: API Product Manager
+      description: Product managers monetizing APIs through plans, quotas, and analytics
+      workflows:
+        - API Gateway Monetization
+    - id: finance-operator
+      name: Finance Operator
+      description: Finance team operating revenue recognition, ERP sync, and audit
+      workflows:
+        - Revenue Recognition and Finance Sync
+        - SaaS Subscription Billing
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers operating metering pipelines and API gateways
+      workflows:
+        - Usage-Based API Pricing
+        - API Gateway Monetization
+
+  domains:
+    - name: Subscription Billing
+      description: Recurring billing for SaaS and subscription products including trials, proration, and dunning
+    - name: Usage Metering
+      description: Event ingestion, aggregation, and pricing for usage-based and hybrid billing models
+    - name: Entitlements
+      description: Per-customer feature access and plan limits driven by pricing configuration
+    - name: API Monetization
+      description: Attaching pricing, plans, and analytics to APIs at the gateway and product layer
+    - name: Revenue Recognition
+      description: Booking and recognizing revenue in ERP and finance systems in line with ASC 606 / IFRS 15
+
+crossReference:
+  - resource: subscriptions
+    operations:
+      - list
+      - create
+      - update
+      - cancel
+    workflows:
+      - SaaS Subscription Billing
+    personas:
+      - Billing Operator
+      - Finance Operator
+  - resource: usage-events
+    operations:
+      - ingest
+      - list
+    workflows:
+      - Usage-Based API Pricing
+      - API Gateway Monetization
+    personas:
+      - Pricing Engineer
+      - Platform Engineer
+  - resource: entitlements
+    operations:
+      - check
+      - list
+    workflows:
+      - Entitlements and Plan Gating
+    personas:
+      - Product Engineer
+  - resource: invoices
+    operations:
+      - list
+      - finalize
+      - void
+    workflows:
+      - SaaS Subscription Billing
+      - Revenue Recognition and Finance Sync
+    personas:
+      - Finance Operator

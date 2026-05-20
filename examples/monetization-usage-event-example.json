@@ -1,0 +1,16 @@
+{
+  "event_id": "evt_01HR5KQ8P3N4ZK7X1G7QHZ8YB2",
+  "meter_code": "api_calls",
+  "customer_id": "cus_NlA8Yz9pQ2vK1d",
+  "subscription_id": "sub_01HR5KQ8P3N4ZK7X1G7QHZ8YB2",
+  "timestamp": "2026-05-19T14:32:11Z",
+  "quantity": 1500,
+  "unit": "tokens",
+  "properties": {
+    "region": "us-east-1",
+    "model": "claude-opus-4-7",
+    "endpoint": "/v1/messages"
+  },
+  "source": "api-gateway",
+  "ingested_at": "2026-05-19T14:32:13Z"
+}

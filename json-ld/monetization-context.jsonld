@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "mon": "https://api-evangelist.github.io/monetization/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gr": "http://purl.org/goodrelations/v1#",
+
+    "Subscription": "mon:Subscription",
+    "UsageEvent": "mon:UsageEvent",
+
+    "id": "@id",
+    "customer_id": {
+      "@id": "mon:customer",
+      "@type": "@id"
+    },
+    "subscription_id": {
+      "@id": "mon:subscription",
+      "@type": "@id"
+    },
+    "plan_code": {
+      "@id": "mon:planCode",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "mon:status",
+      "@type": "xsd:string"
+    },
+    "billing_model": {
+      "@id": "mon:billingModel",
+      "@type": "xsd:string"
+    },
+    "billing_interval": {
+      "@id": "mon:billingInterval",
+      "@type": "xsd:string"
+    },
+    "currency": {
+      "@id": "schema:priceCurrency",
+      "@type": "xsd:string"
+    },
+    "current_period_start": {
+      "@id": "mon:currentPeriodStart",
+      "@type": "xsd:dateTime"
+    },
+    "current_period_end": {
+      "@id": "mon:currentPeriodEnd",
+      "@type": "xsd:dateTime"
+    },
+    "trial_end": {
+      "@id": "mon:trialEnd",
+      "@type": "xsd:dateTime"
+    },
+    "cancel_at_period_end": {
+      "@id": "mon:cancelAtPeriodEnd",
+      "@type": "xsd:boolean"
+    },
+    "components": {
+      "@id": "mon:components",
+      "@container": "@set"
+    },
+    "external_references": {
+      "@id": "mon:externalReferences",
+      "@container": "@set"
+    },
+
+    "event_id": "@id",
+    "meter_code": {
+      "@id": "mon:meterCode",
+      "@type": "xsd:string"
+    },
+    "timestamp": {
+      "@id": "mon:occurredAt",
+      "@type": "xsd:dateTime"
+    },
+    "ingested_at": {
+      "@id": "mon:ingestedAt",
+      "@type": "xsd:dateTime"
+    },
+    "quantity": {
+      "@id": "gr:hasValue",
+      "@type": "xsd:decimal"
+    },
+    "unit": {
+      "@id": "gr:hasUnitOfMeasurement",
+      "@type": "xsd:string"
+    },
+    "properties": {
+      "@id": "mon:properties",
+      "@container": "@index"
+    },
+    "source": {
+      "@id": "mon:source",
+      "@type": "xsd:string"
+    },
+
+    "code": {
+      "@id": "mon:code",
+      "@type": "xsd:string"
+    },
+    "type": {
+      "@id": "mon:componentType",
+      "@type": "xsd:string"
+    },
+    "unit_amount": {
+      "@id": "schema:price",
+      "@type": "xsd:decimal"
+    },
+    "system": {
+      "@id": "mon:externalSystem",
+      "@type": "xsd:string"
+    }
+  }
+}

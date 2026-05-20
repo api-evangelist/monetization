@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/monetization/refs/heads/main/json-structure/monetization-subscription-structure.json",
+  "name": "Subscription",
+  "description": "Represents a recurring subscription owned by a customer against a priced plan in a monetization or billing platform.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier of the subscription within the billing platform.",
+      "example": "sub_01HR5KQ8P3N4ZK7X1G7QHZ8YB2"
+    },
+    "customer_id": {
+      "type": "string",
+      "description": "Identifier of the customer or account that owns this subscription.",
+      "example": "cus_NlA8Yz9pQ2vK1d"
+    },
+    "plan_code": {
+      "type": "string",
+      "description": "Identifier or code of the priced plan this subscription is attached to.",
+      "example": "growth-monthly"
+    },
+    "status": {
+      "type": "string",
+      "description": "Current lifecycle status of the subscription.",
+      "enum": [
+        "trialing",
+        "active",
+        "past_due",
+        "paused",
+        "canceled",
+        "expired"
+      ],
+      "example": "active"
+    },
+    "billing_model": {
+      "type": "string",
+      "description": "Pricing model in effect for this subscription.",
+      "enum": [
+        "flat",
+        "tiered",
+        "volume",
+        "graduated",
+        "package",
+        "usage-based",
+        "hybrid"
+      ],
+      "example": "hybrid"
+    },
+    "currency": {
+      "type": "string",
+      "description": "ISO 4217 currency code used for invoicing this subscription.",
+      "example": "USD"
+    },
+    "billing_interval": {
+      "type": "string",
+      "description": "Cadence at which the subscription is billed.",
+      "enum": [
+        "day",
+        "week",
+        "month",
+        "quarter",
+        "year"
+      ],
+      "example": "month"
+    },
+    "current_period_start": {
+      "type": "datetime",
+      "description": "Start of the current billing period.",
+      "example": "2026-05-01T00:00:00Z"
+    },
+    "current_period_end": {
+      "type": "datetime",
+      "description": "End of the current billing period.",
+      "example": "2026-06-01T00:00:00Z"
+    },
+    "trial_end": {
+      "type": "datetime",
+      "description": "Timestamp at which a trial period ends, if applicable.",
+      "example": "2026-05-15T00:00:00Z"
+    },
+    "cancel_at_period_end": {
+      "type": "boolean",
+      "description": "Whether the subscription is scheduled to cancel at the end of the current period.",
+      "example": false
+    },
+    "components": {
+      "type": "array",
+      "description": "Priced components on the subscription, such as recurring fees, metered usage charges, or per-seat charges.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "example": "api-calls"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "recurring",
+              "metered",
+              "per_seat",
+              "one_time"
+            ],
+            "example": "metered"
+          },
+          "unit_amount": {
+            "type": "number",
+            "example": 0.002
+          },
+          "currency": {
+            "type": "string",
+            "example": "USD"
+          }
+        },
+        "required": [
+          "code",
+          "type"
+        ]
+      }
+    },
+    "external_references": {
+      "type": "array",
+      "description": "Cross-system identifiers linking this subscription to ERP, CRM, or downstream finance systems.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "system": {
+            "type": "string",
+            "example": "sage-intacct"
+          },
+          "id": {
+            "type": "string",
+            "example": "INTACCT-SUB-9912"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "id",
+    "customer_id",
+    "plan_code",
+    "status",
+    "currency"
+  ]
+}

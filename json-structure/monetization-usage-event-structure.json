@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/monetization/refs/heads/main/json-structure/monetization-usage-event-structure.json",
+  "name": "UsageEvent",
+  "description": "A single metered usage event ingested by a usage-based billing or metering engine such as Lago, Metronome, Orb, Amberflo, Togai, or m3ter.",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "description": "Idempotency key uniquely identifying this usage event across re-ingestion attempts.",
+      "example": "evt_01HR5KQ8P3N4ZK7X1G7QHZ8YB2"
+    },
+    "meter_code": {
+      "type": "string",
+      "description": "Identifier of the meter (event type) this event is being attributed to.",
+      "example": "api_calls"
+    },
+    "customer_id": {
+      "type": "string",
+      "description": "Customer the usage should be attributed to for billing.",
+      "example": "cus_NlA8Yz9pQ2vK1d"
+    },
+    "subscription_id": {
+      "type": "string",
+      "description": "Optional subscription this usage event is associated with, when a customer has multiple active subscriptions.",
+      "example": "sub_01HR5KQ8P3N4ZK7X1G7QHZ8YB2"
+    },
+    "timestamp": {
+      "type": "datetime",
+      "description": "Time at which the underlying usage occurred.",
+      "example": "2026-05-19T14:32:11Z"
+    },
+    "quantity": {
+      "type": "number",
+      "description": "Numeric quantity associated with this event (calls, tokens, bytes, seconds, units).",
+      "example": 1500
+    },
+    "unit": {
+      "type": "string",
+      "description": "Unit of measurement for the quantity field.",
+      "example": "tokens"
+    },
+    "properties": {
+      "type": "object",
+      "description": "Free-form key/value dimensions used by the metering engine to filter, group, and price events.",
+      "additionalProperties": true,
+      "example": {
+        "region": "us-east-1",
+        "model": "claude-opus-4-7",
+        "endpoint": "/v1/messages"
+      }
+    },
+    "source": {
+      "type": "string",
+      "description": "Logical source of the usage event, typically a service, gateway, or product surface.",
+      "example": "api-gateway"
+    },
+    "ingested_at": {
+      "type": "datetime",
+      "description": "Time at which the metering engine accepted the event.",
+      "example": "2026-05-19T14:32:13Z"
+    }
+  },
+  "required": [
+    "event_id",
+    "meter_code",
+    "customer_id",
+    "timestamp",
+    "quantity"
+  ]
+}

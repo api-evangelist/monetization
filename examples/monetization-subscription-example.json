@@ -1,0 +1,22 @@
+{
+  "id": "sub_01HR5KQ8P3N4ZK7X1G7QHZ8YB2",
+  "customer_id": "cus_NlA8Yz9pQ2vK1d",
+  "plan_code": "growth-monthly",
+  "status": "active",
+  "billing_model": "hybrid",
+  "currency": "USD",
+  "billing_interval": "month",
+  "current_period_start": "2026-05-01T00:00:00Z",
+  "current_period_end": "2026-06-01T00:00:00Z",
+  "trial_end": "2026-05-15T00:00:00Z",
+  "cancel_at_period_end": false,
+  "components": [
+    { "code": "base-fee", "type": "recurring", "unit_amount": 499.00, "currency": "USD" },
+    { "code": "api-calls", "type": "metered", "unit_amount": 0.002, "currency": "USD" },
+    { "code": "seats", "type": "per_seat", "unit_amount": 25.00, "currency": "USD" }
+  ],
+  "external_references": [
+    { "system": "sage-intacct", "id": "INTACCT-SUB-9912" },
+    { "system": "salesforce", "id": "0061T00000Yx8vKQAR" }
+  ]
+}

@@ -1,0 +1,138 @@
+aid: monetization
+name: Monetization
+description: >-
+  An index and topic collection covering API and SaaS monetization platforms: billing engines, subscription management, usage metering, usage-based pricing, revenue recognition, and the products that operate the monetization surface for digital businesses. This collection brings together vendors used to model pricing, meter usage, bill customers, recognize revenue, and operate the commercial layer of APIs and SaaS products. It spans full-stack billing platforms like Stripe, Chargebee, Recurly, Maxio, and Zuora; metering-first engines like Lago, OpenMeter, Metronome, Orb, Amberflo, Togai, and m3ter; entitlements and packaging tools like Stigg and Schematic; API-native monetization layers like Apigee Monetization, Zuplo, Moesif, and APIToolkit; and procurement, marketplace, and revenue-operations tools like Vendr, Tropic, Suger, ChartMogul, ProfitWell, and Sage Intacct.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Monetization
+- Billing
+- Subscription
+- Metering
+- Usage-Based Pricing
+- Revenue Recognition
+- Pricing
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/monetization/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Amberflo
+  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/apis.yml
+- name: Apigee
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/apis.yml
+- name: APIToolkit
+  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/apis.yml
+- name: Chargebee
+  url: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/apis.yml
+- name: ChartMogul
+  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/apis.yml
+- name: HostBill
+  url: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/apis.yml
+- name: Invoice Ninja
+  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/apis.yml
+- name: Lago
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/apis.yml
+- name: m3ter
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/apis.yml
+- name: Maxio
+  url: https://raw.githubusercontent.com/api-evangelist/maxio/refs/heads/main/apis.yml
+- name: Metronome
+  url: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/apis.yml
+- name: Moesif
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/apis.yml
+- name: Orb
+  url: https://raw.githubusercontent.com/api-evangelist/orb/refs/heads/main/apis.yml
+- name: ProfitWell
+  url: https://raw.githubusercontent.com/api-evangelist/profitwell/refs/heads/main/apis.yml
+- name: Recurly
+  url: https://raw.githubusercontent.com/api-evangelist/recurly/refs/heads/main/apis.yml
+- name: Sage Intacct
+  url: https://raw.githubusercontent.com/api-evangelist/sage-intacct/refs/heads/main/apis.yml
+- name: Schematic
+  url: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/apis.yml
+- name: Stigg
+  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/apis.yml
+- name: Stripe
+  url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/apis.yml
+- name: Suger
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/apis.yml
+- name: Togai
+  url: https://raw.githubusercontent.com/api-evangelist/togai/refs/heads/main/apis.yml
+- name: Tropic
+  url: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/apis.yml
+- name: Vendr
+  url: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/apis.yml
+- name: Zoho Invoice
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-invoice/refs/heads/main/apis.yml
+- name: Zuora
+  url: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/apis.yml
+- name: Zuplo
+  url: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Subscription Management
+    description: Platforms like Chargebee, Recurly, Maxio, and Stripe Billing manage the full subscription lifecycle including signup, renewals, upgrades, downgrades, cancellations, dunning, and proration.
+  - name: Usage Metering and Event Ingestion
+    description: Metering engines like Lago, OpenMeter, Metronome, Orb, Amberflo, Togai, and m3ter ingest high-volume usage events from APIs and SaaS products and convert them into billable quantities.
+  - name: Usage-Based and Hybrid Pricing
+    description: Modern billing platforms model flat, tiered, volume, graduated, package, and usage-based pricing alongside committed-spend and prepaid credit models common in API and infrastructure businesses.
+  - name: Invoicing and Payments
+    description: Monetization platforms generate invoices, calculate taxes, collect payments, manage payment methods, and retry failed charges across global payment rails.
+  - name: Revenue Recognition and Finance Sync
+    description: Billing systems push booked, billed, and recognized revenue into ERP and accounting systems like Sage Intacct, NetSuite, and QuickBooks for ASC 606 / IFRS 15 compliant revenue recognition.
+  - name: Entitlements and Feature Packaging
+    description: Tools like Stigg and Schematic separate pricing from feature gating, exposing entitlement checks so engineering can enforce plans without redeploying.
+  - name: API Monetization and Analytics
+    description: API-native monetization layers like Apigee Monetization, Zuplo, Moesif, and APIToolkit attach pricing, plans, quotas, and analytics directly to API gateways and traffic.
+  - name: Procurement, Marketplaces, and RevOps
+    description: Procurement and marketplace tools like Vendr, Tropic, and Suger, alongside RevOps analytics from ChartMogul and ProfitWell, manage the buy-side and post-billing reporting surface of monetization.
+- type: UseCases
+  data:
+  - name: SaaS Subscription Billing
+    description: Operate recurring subscription plans for a SaaS product with trials, proration, dunning, and tax handling using platforms like Chargebee, Recurly, Maxio, or Stripe Billing.
+  - name: Usage-Based API Pricing
+    description: Meter API calls, tokens, compute, or data egress and bill customers per-unit, in tiers, or against prepaid credits using Lago, Metronome, Orb, Amberflo, m3ter, or Togai.
+  - name: Hybrid Subscription and Consumption Billing
+    description: Combine fixed subscription fees with usage overages and committed-spend contracts for AI, data, and infrastructure products.
+  - name: Feature Entitlements and Plan Gating
+    description: Drive feature access and plan limits from a central entitlements service like Stigg or Schematic instead of hardcoding plan logic in the application.
+  - name: Cloud Marketplace Monetization
+    description: Sell through AWS, Azure, and GCP marketplaces with usage-based metering and contract billing via Suger and integrated marketplace billing flows.
+  - name: API Gateway Monetization
+    description: Attach plans, quotas, and per-call pricing to APIs at the gateway layer using Apigee Monetization or Zuplo, and analyze monetized traffic with Moesif or APIToolkit.
+  - name: Revenue Reporting and Subscription Analytics
+    description: Track MRR, ARR, churn, expansion, and cohort retention with ChartMogul and ProfitWell on top of upstream billing systems.
+  - name: ERP and Revenue Recognition Sync
+    description: Reconcile billed and recognized revenue between subscription billing and finance ledgers like Sage Intacct, NetSuite, or Zuora Revenue.
+- type: Integrations
+  data:
+  - name: Stripe Billing
+    description: Stripe's subscription, invoicing, and usage-based billing product, layered on top of Stripe's payments and tax infrastructure.
+  - name: Chargebee
+    description: Subscription management and recurring billing platform for SaaS and subscription businesses, with deep finance and CRM integrations.
+  - name: Recurly
+    description: Subscription billing platform focused on subscription lifecycle, dunning, and payments optimization.
+  - name: Lago
+    description: Open-source usage-based billing and metering engine offering self-hosted and cloud deployments.
+  - name: Metronome
+    description: Usage-based billing platform purpose-built for AI, data, and infrastructure companies running hybrid pricing models.
+  - name: Orb
+    description: Usage-based billing platform for modern software businesses with sophisticated pricing and event-driven metering.
+  - name: m3ter
+    description: Metering and pricing engine providing real-time event ingestion, pricing logic, and billing automation for API and SaaS products.
+  - name: Stigg
+    description: Pricing and entitlements infrastructure that decouples feature gating and plan configuration from application code.
+  - name: Apigee Monetization
+    description: API monetization layer for Google Cloud Apigee, attaching rate plans, transactions, and revenue reporting to managed APIs.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com
