@@ -3,7 +3,7 @@ name: Monetization
 description: >-
   An index and topic collection covering API and SaaS monetization platforms: billing engines, subscription management, usage metering, usage-based pricing, revenue recognition, and the products that operate the monetization surface for digital businesses. This collection brings together vendors used to model pricing, meter usage, bill customers, recognize revenue, and operate the commercial layer of APIs and SaaS products. It spans full-stack billing platforms like Stripe, Chargebee, Recurly, Maxio, and Zuora; metering-first engines like Lago, OpenMeter, Metronome, Orb, Amberflo, Togai, and m3ter; entitlements and packaging tools like Stigg and Schematic; API-native monetization layers like Apigee Monetization, Zuplo, Moesif, and APIToolkit; and procurement, marketplace, and revenue-operations tools like Vendr, Tropic, Suger, ChartMogul, ProfitWell, and Sage Intacct.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Monetization
 - Billing
