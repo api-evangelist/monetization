@@ -1,0 +1,6 @@
+related:
+- name: Plans
+  url: https://plans.apievangelist.com
+  icon: https://plans.apievangelist.com/icon.png
+  description: An index and topic collection covering machine-readable API and SaaS plan definitions.
+    Plans capture the structured representation of pricing tiers, included entitlements, metered…
