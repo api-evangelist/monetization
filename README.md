@@ -1,121 +1,97 @@
-# Monetization (monetization)
+# Monetization
+
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
 An index and topic collection covering API and SaaS monetization platforms: billing engines, subscription management, usage metering, usage-based pricing, revenue recognition, and the products that operate the monetization surface for digital businesses. This collection brings together vendors used to model pricing, meter usage, bill customers, recognize revenue, and operate the commercial layer of APIs and SaaS products. It spans full-stack billing platforms like Stripe, Chargebee, Recurly, Maxio, and Zuora; metering-first engines like Lago, OpenMeter, Metronome, Orb, Amberflo, Togai, and m3ter; entitlements and packaging tools like Stigg and Schematic; API-native monetization layers like Apigee Monetization, Zuplo, Moesif, and APIToolkit; and procurement, marketplace, and revenue-operations tools like Vendr, Tropic, Suger, ChartMogul, ProfitWell, and Sage Intacct.
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+**Areas:** Monetization · Billing · Subscription · Metering · Usage-Based Pricing · Revenue Recognition · Pricing
 
-## Tags:
+## Monetization on APIs.io
 
- - Monetization, Billing, Subscription, Metering, Usage-Based Pricing, Revenue Recognition, Pricing
+Everything profiled for Monetization is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/monetization/](https://apis.io/providers/monetization/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+## Where to find this API
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
+- [GitHub](https://github.com/api-evangelist)
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Subscription Schema](https://raw.githubusercontent.com/api-evangelist/monetization/refs/heads/main/json-schema/monetization-subscription-schema.json)
-- [JSONSchema - Usage Event Schema](https://raw.githubusercontent.com/api-evangelist/monetization/refs/heads/main/json-schema/monetization-usage-event-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/monetization/refs/heads/main/json-ld/monetization-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/monetization/refs/heads/main/vocabulary/monetization-vocabulary.yaml)
+## API Evangelist rating
 
-## Features
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Subscription Management | Platforms like Chargebee, Recurly, Maxio, and Stripe Billing manage the full subscription lifecycle including signup, renewals, upgrades, downgrades, cancellations, dunning, and proration. |
-| Usage Metering and Event Ingestion | Metering engines like Lago, OpenMeter, Metronome, Orb, Amberflo, Togai, and m3ter ingest high-volume usage events from APIs and SaaS products and convert them into billable quantities. |
-| Usage-Based and Hybrid Pricing | Modern billing platforms model flat, tiered, volume, graduated, package, and usage-based pricing alongside committed-spend and prepaid credit models common in API and infrastructure businesses. |
-| Invoicing and Payments | Monetization platforms generate invoices, calculate taxes, collect payments, manage payment methods, and retry failed charges across global payment rails. |
-| Revenue Recognition and Finance Sync | Billing systems push booked, billed, and recognized revenue into ERP and accounting systems like Sage Intacct, NetSuite, and QuickBooks for ASC 606 / IFRS 15 compliant revenue recognition. |
-| Entitlements and Feature Packaging | Tools like Stigg and Schematic separate pricing from feature gating, exposing entitlement checks so engineering can enforce plans without redeploying. |
-| API Monetization and Analytics | API-native monetization layers like Apigee Monetization, Zuplo, Moesif, and APIToolkit attach pricing, plans, quotas, and analytics directly to API gateways and traffic. |
-| Procurement, Marketplaces, and RevOps | Procurement and marketplace tools like Vendr, Tropic, and Suger, alongside RevOps analytics from ChartMogul and ProfitWell, manage the buy-side and post-billing reporting surface of monetization. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Use Cases
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| SaaS Subscription Billing | Operate recurring subscription plans for a SaaS product with trials, proration, dunning, and tax handling using platforms like Chargebee, Recurly, Maxio, or Stripe Billing. |
-| Usage-Based API Pricing | Meter API calls, tokens, compute, or data egress and bill customers per-unit, in tiers, or against prepaid credits using Lago, Metronome, Orb, Amberflo, m3ter, or Togai. |
-| Hybrid Subscription and Consumption Billing | Combine fixed subscription fees with usage overages and committed-spend contracts for AI, data, and infrastructure products. |
-| Feature Entitlements and Plan Gating | Drive feature access and plan limits from a central entitlements service like Stigg or Schematic instead of hardcoding plan logic in the application. |
-| Cloud Marketplace Monetization | Sell through AWS, Azure, and GCP marketplaces with usage-based metering and contract billing via Suger and integrated marketplace billing flows. |
-| API Gateway Monetization | Attach plans, quotas, and per-call pricing to APIs at the gateway layer using Apigee Monetization or Zuplo, and analyze monetized traffic with Moesif or APIToolkit. |
-| Revenue Reporting and Subscription Analytics | Track MRR, ARR, churn, expansion, and cohort retention with ChartMogul and ProfitWell on top of upstream billing systems. |
-| ERP and Revenue Recognition Sync | Reconcile billed and recognized revenue between subscription billing and finance ledgers like Sage Intacct, NetSuite, or Zuora Revenue. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Integrations
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Monetization: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Description |
-|------|-------------|
-| Stripe Billing | Stripe's subscription, invoicing, and usage-based billing product, layered on top of Stripe's payments and tax infrastructure. |
-| Chargebee | Subscription management and recurring billing platform for SaaS and subscription businesses, with deep finance and CRM integrations. |
-| Recurly | Subscription billing platform focused on subscription lifecycle, dunning, and payments optimization. |
-| Lago | Open-source usage-based billing and metering engine offering self-hosted and cloud deployments. |
-| Metronome | Usage-based billing platform purpose-built for AI, data, and infrastructure companies running hybrid pricing models. |
-| Orb | Usage-based billing platform for modern software businesses with sophisticated pricing and event-driven metering. |
-| m3ter | Metering and pricing engine providing real-time event ingestion, pricing logic, and billing automation for API and SaaS products. |
-| Stigg | Pricing and entitlements infrastructure that decouples feature gating and plan configuration from application code. |
-| Apigee Monetization | API monetization layer for Google Cloud Apigee, attaching rate plans, transactions, and revenue reporting to managed APIs. |
+## Open an issue
 
-## Artifacts
-
-Machine-readable API specifications organized by format.
-
-### JSON Schema
-
-- [Subscription Schema](json-schema/monetization-subscription-schema.json)
-- [Usage Event Schema](json-schema/monetization-usage-event-schema.json)
-
-### JSON Structure
-
-- [Subscription Structure](json-structure/monetization-subscription-structure.json)
-- [Usage Event Structure](json-structure/monetization-usage-event-structure.json)
-
-### JSON-LD
-
-- [Monetization Context](json-ld/monetization-context.jsonld)
-
-## Vocabulary
-
-- [Monetization Vocabulary](vocabulary/monetization-vocabulary.yaml) — Unified taxonomy mapping resources, actions, workflows, and personas across subscription billing, usage metering, entitlements, and API monetization.
-
-## Network
-
-This index references the following monetization and billing repositories:
-
-- [Amberflo](https://github.com/api-evangelist/amberflo)
-- [Apigee](https://github.com/api-evangelist/apigee)
-- [APIToolkit](https://github.com/api-evangelist/apitoolkit)
-- [Chargebee](https://github.com/api-evangelist/chargebee)
-- [ChartMogul](https://github.com/api-evangelist/chartmogul)
-- [HostBill](https://github.com/api-evangelist/hostbill)
-- [Invoice Ninja](https://github.com/api-evangelist/invoice-ninja)
-- [Lago](https://github.com/api-evangelist/lago)
-- [m3ter](https://github.com/api-evangelist/m3ter)
-- [Maxio](https://github.com/api-evangelist/maxio)
-- [Metronome](https://github.com/api-evangelist/metronome)
-- [Moesif](https://github.com/api-evangelist/moesif)
-- [Orb](https://github.com/api-evangelist/orb)
-- [ProfitWell](https://github.com/api-evangelist/profitwell)
-- [Recurly](https://github.com/api-evangelist/recurly)
-- [Sage Intacct](https://github.com/api-evangelist/sage-intacct)
-- [Schematic](https://github.com/api-evangelist/schematic)
-- [Stigg](https://github.com/api-evangelist/stigg)
-- [Stripe](https://github.com/api-evangelist/stripe)
-- [Suger](https://github.com/api-evangelist/suger)
-- [Togai](https://github.com/api-evangelist/togai)
-- [Tropic](https://github.com/api-evangelist/tropic)
-- [Vendr](https://github.com/api-evangelist/vendr)
-- [Zoho Invoice](https://github.com/api-evangelist/zoho-invoice)
-- [Zuora](https://github.com/api-evangelist/zuora)
-- [Zuplo](https://github.com/api-evangelist/zuplo)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/monetization/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
